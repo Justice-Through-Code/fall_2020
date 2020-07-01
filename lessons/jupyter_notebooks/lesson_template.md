@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
----
-
 # Before class
 
   * Thing 1 to do before class
