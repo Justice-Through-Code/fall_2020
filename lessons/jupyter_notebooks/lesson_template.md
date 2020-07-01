@@ -1,31 +1,32 @@
 # Before class
 
-  * Thing 1 to do before class
-  * Thing 2 to do before class
+* Thing 1 to do before class
+* Thing 2 to do before class
 
-# Outline of class goals
+# Outline of class agenda
 
-  * Goal 1
-  * Goal 2
+#1 Agenda item 1
+#2 Agenda item 2
+ 
+
+### A relevant image from online that will help students follow the lesson
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png" width="300">
 
 # Class 
 
-
-## Heading 1
+## Topic 1
 
 
 ```python
-def rand_split_full(cluster_labels_bag, cluster_labels_full, split):
-    merged_labels = cluster_labels_bag.merge(cluster_labels_full, on = 'URSI', how = 'left')
-    merged_labels = merged_labels[merged_labels.split == split]
-    rand = adjusted_rand_score(merged_labels.clust_bag, merged_labels.clust_no_bag)
-    return([merged_labels, rand])
+# here is some python code for topic 1
+def my_cool_function(user_input):
+    return(2*user_input)
 ```
 
+## Topic 2
 
-## Heading 2
 
-Here is some `sample code`
+Here is a great sentence with some text for the lesson, as well as inline code like `print('hello world)` or `git status`
 
 # Challenge
 
