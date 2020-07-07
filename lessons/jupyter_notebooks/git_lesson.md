@@ -26,6 +26,7 @@ During this class, you will:
 Git is a tool for implementing something called "version control", which tracks changes you've made to your files, and stores the history of your changes. 
 
 Have you ever had a situation like this?
+
 <img src="https://thedataarealright.files.wordpress.com/2018/11/screen-shot-2012-09-12-at-08-38-56.png" width="500">
 
 This kind of system, where we have to save a file with a new name everytime we update it (so we don't lose previous work) can be really confusing! Git, by using version control, can make this much simpler.
@@ -46,7 +47,9 @@ Git is most often used from the command line (just like how we've been running p
 
 Using the command line, you'll first need to tell Git what your user name is:
 
-`git config --global user.name "Paul Bloom"`
+```console
+$ git config --global user.name "Paul Bloom"
+```
 
 Then, you'll want to set up an email address to associate with your Git activity. Here, you should make sure to use the **same email address attached to your Github account**:
 
