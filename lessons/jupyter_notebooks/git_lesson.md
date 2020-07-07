@@ -45,7 +45,7 @@ By the end of this lesson, you'll also be setting up your own Github repository!
 
 ## 2. Setting up Git on your computer
 
-Git is most often used from the command line (just like how we've been running python scripts), although there are other ways to use it. For the most part, all of the ways we'll use Git today will be from the command line. When you first set up Git on your computer, you'll need to do a few extra things to configure it. These are setup steps you have to to **once only**
+Git is most often used from the command line (just like how we've been running python scripts), although there are other ways to use it. For the most part, all of the ways we'll use Git today will be from the command line. When you first set up Git on your computer, you'll need to do a few extra things to configure it. These are setup steps you have to do **once only**
 
 #### Git Config
 
