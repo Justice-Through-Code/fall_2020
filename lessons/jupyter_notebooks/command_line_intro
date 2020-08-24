@@ -1,0 +1,192 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Before class"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* Install the text editor Atom\n",
+    "* Install Anaconda"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Outline of class agenda\n",
+    "\n",
+    "By the end of this class, you'll:\n",
+    "* Feel comfortable working at the command line\n",
+    "* Know what a working directory is, and how to identify your *current working directory*\n",
+    "* Be able to change working directories from the command line\n",
+    "* Be able to find files you are working on from the command line in the file browser (finder) and vice versa"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Class "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. The command line\n",
+    "\n",
+    "The \"command line\" is a way to interact with your computer just like using the mouse to click on programs and run them. Although the command line might be a steep learning curve at first, it is REALLY useful for many things in programming, and it is something you will use a lot and get very comfortable with during this course.\n",
+    "\n",
+    "If you're using a Mac, you can open Terminal to get to your command line prompt. If you're using a PC, open the Anaconda PowerShell Prompt.\n",
+    "\n",
+    "Either way, when you open your command line prompt, you should see a `$` symbol at the end of the line. \n",
+    "\n",
+    "<img src=\"images/command_line_1.png\" width=\"500\">\n",
+    "\n",
+    "This is the **'prompt'**, indicating that it is ready for you to input a command. It will look a bit like this, but a bit different based on your username on your computer."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### How to run things from the command line?\n",
+    "  * You pretty much always interact with the command line by typing a 1 line command. Then you run it by hitting enter! "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2. The working directory\n",
+    "\n",
+    "The **working directory** is a concept we will use a LOT in this class! So, we're going to do a lot of practice to get comfortable with it. \n",
+    "\n",
+    "**Essentially, the working directory is the folder that you are currently 'in' on your computer.** In fact, the word 'directory' basically always means 'folder' for the purposes of this class.\n",
+    "\n",
+    "To check your working directory from the command line, you can type `pwd` and press enter.\n",
+    "\n",
+    "<img src=\"images/command_line_2.png\" width=\"500\">\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Here, I can now see that I'm in the folder `/Users/paul`\n",
+    "\n",
+    "**What do the slashes mean?**\n",
+    "* Each slash means that part to the right is *inside* the folder to the left (in this example, the `paul` folder is inside the `Users` folder)\n",
+    "* These slashes might go the other direction depending on your operating system, but they work the same way\n",
+    "\n",
+    "\n",
+    "You can verify for yourself how this works by looking at your folders in the finder (Mac) / file explorer (Windows). Here, in my finder we can see that the `paul` folder is inside the `Users` folder\n",
+    "\n",
+    "<img src=\"images/command_line_3.png\" width=\"500\">\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Listing files / folders\n",
+    "\n",
+    "To see what files and folders are in your **working directory**, you can run the command `ls`. `ls` stands for 'list', so this prints out a list of the files and folders in your working directory:\n",
+    "\n",
+    "<img src=\"images/command_line_4.png\" width=\"700\">\n",
+    "\n",
+    "\n",
+    "This is equivalent to opening up the same folder in your finder/file explorer and looking around. For example, if I go in finder to this folder, it has the same contents, just displayed a little differently:\n",
+    "\n",
+    "<img src=\"images/command_line_5.png\" width=\"300\">\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### An additional flag\n",
+    "\n",
+    "You can also add what is called a ['flag'](https://en.wikipedia.org/wiki/Command-line_interface#Command-line_option) to modify the output of a command you run at the prompt. With `ls`, we can add a `-l` flag to get more deatiled info on each folder/file in the working directory (like the file size, when it was created or last updated, etc) as below:\n",
+    "\n",
+    "\n",
+    "```console\n",
+    "$ ls -l\n",
+    "```\n",
+    "\n",
+    "The output looks like this:\n",
+    "\n",
+    "<img src=\"images/command_line_6.png\" width=\"500\">\n",
+    "\n",
+    "We won't go into the details of what each output is now, but this more detailed printout can help us find a lot of information about our files and folders. If you'd like to know more about this output, [check out this link.](https://linoxide.com/linux-command/20-ls-command-linux/)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 4. Changing working directory\n",
+    "\n",
+    "Changing your working directory basically means **'moving to another folder'**. To do this, we can use the command `cd`, which stands for 'change directory'. To change directory to any folder, we can run the command\n",
+    "`cd` followed by the folder that we want to go into:\n",
+    "\n",
+    "I'll change my working directory to the `Desktop` folder inside `/Users/paul`\n",
+    "\n",
+    "<img src=\"images/command_line_7.png\" width=\"500\">\n",
+    "\n",
+    "We actually get **no printout** here, it just returns us to the next command prompt. So, we can check whether we actually made it into the folder we wanted to by running `pwd` again to show the working directory\n",
+    "\n",
+    "<img src=\"images/command_line_8.png\" width=\"500\">\n",
+    "\n",
+    "So, we can see that we are actually at the Desktop folder. If we run `ls`, we will now see the contents of this folder instead, and we can confirm this in finder/file explorer:\n",
+    "\n",
+    "<img src=\"images/command_line_9.png\" width=\"800\">\n",
+    "\n",
+    "We can see the same thinks in the `Desktop` directory whether we look in finder (left) or via the command line (right)\n",
+    "\n",
+    "\n",
+    "### Getting out of a directory\n",
+    "\n",
+    "There is a special set of symbols for the directory outside the one you are in, it is `..` (two periods). So, if we want to **get out of the current folder** (or 'go up one level'), we can run `cd ..`\n",
+    "\n",
+    "If I'm still in my `Desktop` folder, then I go out of this folder with `cd ..`, I'll be back in `/Users/paul/`\n",
+    "\n",
+    "<img src=\"images/command_line_10.png\" width=\"500\">\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
