@@ -254,17 +254,6 @@ Some additional repos that might be interesting:
   * [A repo from the Vera Institute of Justice with incarceration data from 1970-2017](https://github.com/vera-institute/incarceration_trends)
   * [A repo for the Spotipy python API](https://github.com/plamere/spotipy) (a way of accessing Spotify data with python)
 
-
-# Challenge
-
-Your challenge today is to take your assignments folder for this class, and upload it to a Github repository called 'jtc_assignments'. 
-
-  * Add, commit, and push your work so far on the current assignments. 
-  * Add a brief README.md file for your repo, and customize it how you like! 
-  
-  
-Good luck, and have fun!
-
 # Beyond...
 
 There are many more useful things you can do with Github beyond what we've learned today. You can find more info in the [Software Carpentry Git Lesson](https://swcarpentry.github.io/git-novice/), but later on in the course we'll also come back to a few more Git/Github tools, especially for using Github in a collaborative way.
