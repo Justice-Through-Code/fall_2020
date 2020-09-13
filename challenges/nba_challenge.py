@@ -6,7 +6,7 @@ jamal_murray_3pts_made = 46
 # TODO: Create variable here for number of 3 pt shots made by James Harden
 print()
 
-print("Challenge 2.2")
+print("Challenge 2.2:")
 print("Print the variables that track the number of 3 pt shots made by each of the three players")
 print(f"In the 2020 NBA playoffs, Jamal Murray made {jamal_murray_3pts_made} 3 point shots")
 # TODO: Create print statement here for Fred VanVleet
@@ -25,7 +25,7 @@ print("Challenge 2.4: Build on your print statement")
 # "In the 2020 NBA playoffs, player X made Y 3 point shots and Z 3 point shot attempts."
 print()
 
-print("Challenge 2.5: Calculate and print the three point percentage for each player")
+print("Challenge 2.5: Calculate, store, and print the three point percentage for each player")
 # TODO: Calculate the three point percentage, which is given by `three points made/three point attempts`
 # TODO: Calculate and print the 3 point percentage for Jamal Murray
 # TODO: Calculate and print the 3 point percentage for Fred VanVleet
