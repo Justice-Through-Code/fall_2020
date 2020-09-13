@@ -1,0 +1,31 @@
+# Instructions for Command Line Intro Scavenger Hunt (WIP)
+
+### Setup
+1. Download the directory called New_York_City from [this link]() (NOTE: update this with a real link) and open up your Terminal or Anaconda PowerShell Prompt to access the command line.
+
+2. Navigate to where you saved the New_York_City folder using the `cd` change directory command. If you're using a Mac and saved it to Downloads, it will likely require the following command:
+`cd Downloads/New_York_City`
+
+### Scavenger Hunt
+1. Welcome to New York City! You're spending today "exploring" the five boroughs of NYC using the command line. Your first stop will be an airport in Queens. Navigate to the Queens folder with the following command:
+`cd Queens`. If run the command `ls`, you will see that there are two folders, one named `Airports` and another called `Beaches`. Navigate to the Airports folder using the cd command.
+2. In the Airports folder, you can list all of the airports in Queens by using `ls`, which should be two files -- `JFK.txt` and `LGA.txt`. You're landing in JFK airport, and the file `JFK.txt` will give you a clue for your next location. Use the command `cat JFK.txt` on Mac or `type JFK.txt` on PC to print the contents of the JFK text file. The file should contain a description of the JFK airport and a clue for where you're headed next at the bottom (so take note of it!)
+
+###### (Clue for next location: Craving bakery food!)
+`Staten_Island/Food/Royal_Crown_Bakery.txt`
+3. You just landed at JFK and plan on visiting your relatives in Staten Island, but you're getting kind of hungry. Now you need to leave the Queens folder and navigate to the Staten_Island folder. You can use the command `pwd` to show which directory you're currently in, and that should end in `/New_York_City/Queens/Airports`. To go back to the initial New_York_City folder so that you can navigate to Staten_Island, you can use `cd ../..`. The `..` means to go to the "parent" directory of the directory that you're current in. Since you're in the `/New_York_City/Queens/Airports` directory, `cd ..` will take you to `/New_York_City/Queens` so if you use `../..`, it will take you to the parent directory of `/New_York_City/Queens`, which is New_York_City.
+4. Once you're back in the New_York_City directory (can confirm this using `pwd`), navigate to the Staten_Island directory using the `cd` command. Once you're in this directory, you can list the folders and files in it again to see where you can go in Staten Island and then navigate to the `Food` directory using the `cd` command again.
+5. Using the clue you got from the JFK airport text file, "go to" the food place that was indicated by displaying the contents of the file describing the restaurant. This will tell you where your next location is!
+
+###### (Clue for next location: Largest park (and most "central"?) in Manhattan!)
+`Manhattan/Parks/Central_Park.txt`
+6. From the clue that you just received, navigate to the appropriate borough to continue the rest of your New York City adventure. (If you need a hint, it's the only borough that doesn't have any beaches! Feel free to ask your instructors for help if you are having trouble finding any of the clues). Once you're in that borough, navigate to the folder where your location is and display the file contents of the location you're headed to using commands similar to the ones you used for previous parts of this scavenger hunt. This will also give you your next clue for where to go to! (Hint: it's location is in one of the two boroughs that you haven't already gone to, starts with a B... ends with an x)
+###### (Clue for next location: go to the largest zoo in the NYC area!)
+`Bronx/Zoos/Bronx_Zoo.txt`
+
+7. You're almost done with your adventure! Once you've visited the zoo and taken some pictures with the animals, display the contents of the Bronx_Zoo.txt for your very last location. (Hint: You'll be headed to the one borough that you haven't already visited.)
+###### (Clue for next location: It's been a very long day and you want to relax on the beach! Go to Brooklyn and visit the beach that's named after another borough.)
+`Brooklyn/Beaches/Manhattan_Beach.txt`
+
+
+8. Once you arrive in the correct location for your last stop of the day, display the contents of the file and give yourself a pat on the back! Feel free to "explore" other parts of the city and check out the "locations" (files) of some fun places to visit.

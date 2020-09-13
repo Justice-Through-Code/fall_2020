@@ -11,7 +11,7 @@ By the end of this class, you'll:
 * Be able to change working directories from the command line
 * Be able to find files you are working on from the command line in the file browser (finder) and vice versa
 
-# Class 
+# Class
 
 ## 1. The command line
 
@@ -19,18 +19,18 @@ The "command line" is a way to interact with your computer just like using the m
 
 If you're using a Mac, you can open Terminal to get to your command line prompt. If you're using a PC, open the Anaconda PowerShell Prompt.
 
-Either way, when you open your command line prompt, you should see a `$` symbol at the end of the line. 
+Either way, when you open your command line prompt, you should see a `$` symbol at the end of the line.
 
 <img src="images/command_line_1.png" width="500">
 
 This is the **'prompt'**, indicating that it is ready for you to input a command. It will look a bit like this, but a bit different based on your username on your computer.
 
 #### How to run things from the command line?
-  * You pretty much always interact with the command line by typing a 1 line command. Then you run it by hitting enter! 
+  * You pretty much always interact with the command line by typing a 1 line command. Then you run it by hitting enter!
 
 ## 2. The working directory
 
-The **working directory** is a concept we will use a LOT in this class! So, we're going to do a lot of practice to get comfortable with it. 
+The **working directory** is a concept we will use a LOT in this class! So, we're going to do a lot of practice to get comfortable with it.
 
 **Essentially, the working directory is the folder that you are currently 'in' on your computer.** In fact, the word 'directory' basically always means 'folder' for the purposes of this class.
 
@@ -78,7 +78,29 @@ The output looks like this:
 
 We won't go into the details of what each output is now, but this more detailed printout can help us find a lot of information about our files and folders. If you'd like to know more about this output, [check out this link.](https://linoxide.com/linux-command/20-ls-command-linux/)
 
-## 4. Changing working directory
+## 4. Displaying contents of file
+
+#### Mac
+To display the contents of a file in your Terminal window, you can use several commands, with `cat`, short for "concatenate" being one of the most popular for Mac users.
+
+```
+$ cat filename
+```
+The result of `cat JFK.txt`, where JFK.txt is a text file with a description of the John F. Kennedy International Airport, looks like this:
+
+<img src="images/command_line_15.png" width="500">
+
+
+The `cat` command can also be used to create files or concatenate (string together) the contents of multiple files. For more details about the command and how to use it, [read this](http://www.linfo.org/cat.html).
+
+#### Windows
+The Windows equivalent of the `cat` command to display file contents is called `type`. Similarly, you can use:
+
+```
+$ type filename
+```
+
+## 5. Changing working directory
 
 Changing your working directory basically means **'moving to another folder'**. To do this, we can use the command `cd`, which stands for 'change directory'. To change directory to any folder, we can run the command
 `cd` followed by the folder that we want to go into:
