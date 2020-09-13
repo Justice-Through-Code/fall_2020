@@ -18,9 +18,9 @@ Today is our first class of Python Bootcamp material! By the end of the lesson, 
 5. Feel comfortable working with the Float data type
 
 
- 
 
-# Class 
+
+# Class
 
 One thing you might be wondering today as we start the bootcamp is: what exactly *is* a python script?
 * A Python script is any bit of valid Python code in a file with the .py extension (there's actually nothing special about this extension, it just helps your computer label it as python code)
@@ -29,11 +29,11 @@ One thing you might be wondering today as we start the bootcamp is: what exactly
 
 ## 1. Print statements
 
-When you think of 'printing', you might initially think about printing on paper. But, to **print** in python means to **send back output, or to 'print' to the screen**. 
+When you think of 'printing', you might initially think about printing on paper. But, to **print** in python means to **send back output, or to 'print' to the screen**.
 
 Over the whole course, print statements will be helpful to you because they give you way to **display** what your code is doing.
 
-First, make a new file called `print.py` in your `bootcamp_scripts` folder. We'll use this script to get comfortable working with print statements. You can open this up in your text editor to get started.
+First, make a new file called `print_exercise.py` in your `bootcamp_scripts` folder. We'll use this script to get comfortable working with print statements. You can open this up in your text editor to get started.
 
 ### Printing text
 
@@ -46,28 +46,28 @@ print('hi, this is your computer speaking')
 Now, run your script from the command line (make sure you've set bootcamp script as your working directory) with:
 
 ```console
-$ python print.py
+$ python print_exercise.py
 ```
 
-We can see that when we run the script, we get 'hi, this is your computer speaking' **printed** out for us. Nice! 
+We can see that when we run the script, we get 'hi, this is your computer speaking' **printed** out for us. Nice!
 
 ### Printing requires parenthesis!
 
-You might be wondering why we needed to put both *single quotes and parenthesis* around the actual text we wanted to print out here. 
+You might be wondering why we needed to put both *single quotes and parenthesis* around the actual text we wanted to print out here.
 * We'll get to the reason for the single quotes soon when we cover [strings](https://www.w3schools.com/python/python_strings.asp) (hint: strings always have quotes around them).
-* In Python version 3 (most likely what you're using for this class), you need to put what you want to print out in parenthesis. 
+* In Python version 3 (most likely what you're using for this class), you need to put what you want to print out in parenthesis.
 
 Let's see what happens if we leave out the parenthesis and change the script to:
 
 ```python
-print 'hi, this is your computer speaking' 
+print 'hi, this is your computer speaking'
 ```
 
 Then if we run it from the command line again, we see:
 
 ```console
-$ python print.py
-  File "print.py", line 1
+$ python print_exercise.py
+  File "print_exercise.py", line 1
     print 'hi this is your computer speaking'
                                             ^
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print('hi this is your computer speaking')?
@@ -79,7 +79,7 @@ This error looks confusing, but it is trying to help us to let us know we forgot
 
 This might be a good place to point out that **python scripts generally execute line by line, in order from top to bottom**. So, if you write print statements on two consecutive lines, they'll print out in that order.
 
-Try adding another print statement on a new line so your `print.py` script has:
+Try adding another print statement on a new line so your `print_exercise.py` script has:
 
 ```python
 print('hi, this is your computer speaking')
@@ -89,7 +89,7 @@ You should see both lines ouput on their own lines at the command line!
 
 
 ```console
-$ python print.py 
+$ python print_exercise.py
 hi this is your computer speaking
 i can run a lot of python code
 ```
@@ -101,9 +101,9 @@ print('hi, this is your computer speaking') print('i can run a lot of python cod
 ```
 
 You'll see an invalid syntax error when you run this
-```console 
-$ python print.py 
-  File "print.py", line 1
+```console
+$ python print_exercise.py
+  File "print_exercise.py", line 1
     print ('hi this is your computer speaking') print ('i can run a lot of python code')
                                                     ^
 SyntaxError: invalid syntax
@@ -117,7 +117,7 @@ One of the **most important** things to do when programming is to add *comments*
 
 In python, you can use the `#` symbol to make comments. Anything on a line to the right of the `#` will be a comment, and will not be run as code
 
-Try adding comments to your `print.py` script similar to this:
+Try adding comments to your `print_exercise.py` script similar to this:
 
 ```python
 # this line of code prints out a first line of text
@@ -127,7 +127,7 @@ print('hi, this is your computer speaking')
 print('i can run a lot of python code')
 ```
 
-When you run your script, you should see exactly the same output as before. Notice, we added extra lines with white space -- python doesn't care about these though. 
+When you run your script, you should see exactly the same output as before. Notice, we added extra lines with white space -- python doesn't care about these though.
 
 
 ### Commenting out lines of code
@@ -142,7 +142,7 @@ print('hi, this is your computer speaking')
 #print('i can run a lot of python code')
 ```
 
-You'll only see the first line of text printed out. So, commenting out code can be a helpful way to toggle pieces of code on/off when you are trying to work out specific parts of your scripts. 
+You'll only see the first line of text printed out. So, commenting out code can be a helpful way to toggle pieces of code on/off when you are trying to work out specific parts of your scripts.
 
 
 #### Commenting out big chunks
@@ -153,8 +153,8 @@ Want to comment a bunch of lines out at one time? You can do this in many code e
 
 To learn about variables, let's make a new script in the `bootcamp_scripts` folder called `variables.py`
 
-#### What are variables? 
-Variables are ways to save things in your code. One way to think of them is as little boxes you can put other things into, and you can use the name of the box wherever you want in your code to refer to what's inside the box. Any time you work with variables in python, it is important to be able to think of the **variable name** as what refers to **what is actually stored in the variable**. 
+#### What are variables?
+Variables are ways to save things in your code. One way to think of them is as little boxes you can put other things into, and you can use the name of the box wherever you want in your code to refer to what's inside the box. Any time you work with variables in python, it is important to be able to think of the **variable name** as what refers to **what is actually stored in the variable**.
 
 #### Assigning variables
 
@@ -182,24 +182,24 @@ print(firstname)
 So, now if we run the script, we see:
 
 ```console
-$ python variables.py 
+$ python variables.py
 Paul
 ```
 
-Great, now we have output! We can think about using `print()` with variables as printing out for us *what is inside the box* after we tell python which box we want to print out. 
+Great, now we have output! We can think about using `print()` with variables as printing out for us *what is inside the box* after we tell python which box we want to print out.
 
 
 #### Variable naming conventions
 
 There are a few rules for naming variables when we assign them:
- * They can't start with numbers 
+ * They can't start with numbers
  * They can't have spaces in them
- 
-Rules aside, one very useful convention is to use all lowercase letters in variable naming, and to separate each word with an underscore (`_`). 
+
+Rules aside, one very useful convention is to use all lowercase letters in variable naming, and to separate each word with an underscore (`_`).
 
 For example: `my_new_variable` or `birthday_year`
- 
-Check out the [PEP 8 guide](https://www.python.org/dev/peps/pep-0008/#method-names-and-instance-variables) for more info on style in creating variable names. 
+
+Check out the [PEP 8 guide](https://www.python.org/dev/peps/pep-0008/#method-names-and-instance-variables) for more info on style in creating variable names.
 
 #### Updating variables
 
@@ -216,12 +216,12 @@ print(variable_a)
 
 We get different a different printout when we **update** (or 're-assign') `variable_a`:
 ```console
-$ python integers_floats.py 
+$ python integers_floats.py
 this is variable a
 this is variable b
 ```
 
-We can update variables as many times as we want, but it is important to keep in mind that we lose the prior value stored in a variable when we reassign it. So, if we need to store more information, we often need multiple variables at the same time. 
+We can update variables as many times as we want, but it is important to keep in mind that we lose the prior value stored in a variable when we reassign it. So, if we need to store more information, we often need multiple variables at the same time.
 
 #### Variable errors
 
@@ -235,17 +235,17 @@ first_name = 'Paul'
 print(firstname)
 ```
 
-Now, when you run the script, you'll see: 
+Now, when you run the script, you'll see:
 
 ```console
-$ python variables.py 
+$ python variables.py
 Traceback (most recent call last):
   File "variables.py", line 2, in <module>
     print(firstname)
 NameError: name 'firstname' is not defined
 ```
 
-Python is telling us that it is *looking* for the variable called 'firstname' in the print statement, but it couldn't find it! That's because it is 'not defined', indicating that we never assigned a variable with that name. If you see this error, you'll know to check your variable names to make sure you've assigned the variable you want to work with. 
+Python is telling us that it is *looking* for the variable called 'firstname' in the print statement, but it couldn't find it! That's because it is 'not defined', indicating that we never assigned a variable with that name. If you see this error, you'll know to check your variable names to make sure you've assigned the variable you want to work with.
 
 ## 4. Integers
 
@@ -253,7 +253,7 @@ For this section and the next, let's make a script in `bootcamp_scripts` called 
 
 #### Primitive data types
 
-We're now going to learn about the 'primitive' data types in python, that form the basis for all other kinds of data we'll work with this semester. There are [4 of them total](https://able.bio/ZoranPandovski/understanding-python-3-data-types-string-int-float-and-boolean--57tqcfp) (integers, strings, floats, and boolean variables), and we'll learn about integers and floats today. 
+We're now going to learn about the 'primitive' data types in python, that form the basis for all other kinds of data we'll work with this semester. There are [4 of them total](https://able.bio/ZoranPandovski/understanding-python-3-data-types-string-int-float-and-boolean--57tqcfp) (integers, strings, floats, and boolean variables), and we'll learn about integers and floats today.
 
 #### What are integers?
 
@@ -280,7 +280,7 @@ print(1-3)
 This gives us the answers we'd expect for each equation:
 
 ```console
-python integers_floats.py 
+python integers_floats.py
 4
 3
 -2
@@ -289,10 +289,10 @@ python integers_floats.py
 We can also assign integers to variables and work with them that way. To test this out, in `integers_floats.py`, let's do the following:
 
 ```python
-# assign a positive integer to a variable 
+# assign a positive integer to a variable
 positive_number = 10
 
-# assign a negative integer to a variable 
+# assign a negative integer to a variable
 negative_number = -5
 
 # add the values of the two variables and print
@@ -302,7 +302,7 @@ print(positive_number + negative_number)
 When we run this from the command line, we get:
 
 ```console
-$ python integers_floats.py 
+$ python integers_floats.py
 5
 ```
 
@@ -311,7 +311,7 @@ $ python integers_floats.py
 
 Floats, unlike integers, **do have decimal points**. They take up slightly more memory than integers, but they allow for precision if we have numbers that aren't whole.
 
-Math works as we'd expect with floats too. For example: 
+Math works as we'd expect with floats too. For example:
 
 ```python
 print(1.1+3.1)
@@ -322,7 +322,7 @@ print(1-3.736)
 Gives us:
 
 ```console
-$ python integers_floats.py 
+$ python integers_floats.py
 4.2
 3.0
 -2.736
@@ -339,7 +339,7 @@ Here, we've divided one integer by another integer, but the answer is 0.5, which
 
 
 ```console
-$ python integers_floats.py 
+$ python integers_floats.py
 0.5
 ```
 
@@ -366,12 +366,12 @@ print(var_b)
 
 We get:
 ```console
-$python integers_floats.py 
+$python integers_floats.py
 14
 20
 ```
 
-Parentheses like these can be especially important for controlling the order that python evaluates code with math in it. 
+Parentheses like these can be especially important for controlling the order that python evaluates code with math in it.
 
 ### Type conversion
 
@@ -387,7 +387,7 @@ print(my_float)
 So, we create an integer variable, convert it to float, then print it.
 
 ```console
-$ python integers_floats.py 
+$ python integers_floats.py
 2.0
 ```
 
@@ -404,7 +404,7 @@ print(my_int_2)
 Here, we **actually lose information and change the value of the number, because converting from a float to an integer basically just 'cuts off' everything after the decimal point**. Also, this is **not** what we'd get if we rounded the number (if we rounded to the nearest whole, we'd round up to 3!).
 
 ```console
-$ python integers_floats.py 
+$ python integers_floats.py
 2
 ```
 
