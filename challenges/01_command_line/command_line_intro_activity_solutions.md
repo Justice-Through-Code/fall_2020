@@ -1,7 +1,7 @@
 # Instructions for Command Line Intro Scavenger Hunt (WIP)
 
 ### Setup
-1. Download the directory called New_York_City from [this link]() (NOTE: update this with a real link) and open up your Terminal or Anaconda PowerShell Prompt to access the command line.
+1. Download the zipped directory called New_York_City.zip from [this link](https://courseworks2.columbia.edu/courses/119496/files/folder/Class%201) (If you can't find this, log onto Canvs, then go to Files/Class 1 to view) and open up your Terminal or Anaconda PowerShell Prompt to access the command line.
 
 2. Navigate to where you saved the New_York_City folder using the `cd` change directory command. If you're using a Mac and saved it to Downloads, it will likely require the following command:
 `cd Downloads/New_York_City`
