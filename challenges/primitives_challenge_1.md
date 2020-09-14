@@ -37,7 +37,7 @@ Let's combine the four print statements into two print statements using 'f-strin
 ```python
 salary = 50000
 raised_salary = salary * 1.1
-print(f"The employee's ols salary was: {salary}")
+print(f"The employee's old salary was: {salary}")
 print(f"The employee's salary is: {raised_salary}")
 ```
 
