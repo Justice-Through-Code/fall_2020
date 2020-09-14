@@ -98,3 +98,19 @@ Copy the print statements you wrote in Challenge 2.2 and extend them by printing
 #### Challenge 2.5: Calculate and print the three point percentage for each player
 
 The three point percentage is given by the following formula: `3 point shots made/3 point shots attempted`
+
+### Challenge 3: Using arithmetic operations 
+
+#### Challenge 3.1: Calculate, store, and print total points scored
+
+In the 2020 WNBA season, Seattle Storm player Breanna Stewart played 20 games and averaged 19.7 points per-game. Using this information, calculate the total number of points Breanna Stewart scored in the 2020 WNBA season and cast the result to an integer using `int()`.  
+
+#### Challenge 3.2: Average defensive rebounds
+
+In the 2020 WNBA season, the Seattle Storm's top 3 defensive rebounders were
+
+1. Breanna Stewart with 7.3 defensive rebounds per-game
+2. Natasha Howard with 4.7 defensive rebounds per-game
+3. Alysha Clark with 3.4 defensive rebounds per-game
+
+Calculate, store, and print the average defensive rebounds per-game among these three players for the Seattle Storm. Print your answer as a floating point number, not an integer. 

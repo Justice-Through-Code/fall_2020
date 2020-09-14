@@ -30,4 +30,22 @@ print("Challenge 2.5: Calculate, store, and print the three point percentage for
 # TODO: Calculate and print the 3 point percentage for Jamal Murray
 # TODO: Calculate and print the 3 point percentage for Fred VanVleet
 # TODO: Calculate and print the 3 point percentage for James Harden
+print()
 
+print("Challenge 3.1: Calculate, store, and print total points scored")
+# In the 2020 WNBA season, Seattle Storm player Breanna Stewart played 20 games and averaged 19.7 points per-game.
+# TODO: Calculate the total number of points Breanna Stewart scored in the 2020 WNBA season
+# TODO: Cast the calculated number to an integer using `int()` and save to a new variable
+# TODO: Print the cast variable as part of a string explaining the statistic for Breanna Stewart,
+# e.g. "In the 2020 WNBA season, ... Player X scored Y points total"
+print()
+
+print("Challenge 3.2: Average defensive rebounds")
+# In the 2020 WNBA season, the Seattle Storm's top 3 defensive rebounders were
+# 1. Breanna Stewart with 7.3 defensive rebounds per-game
+# 2. Natasha Howard with 4.7 defensive rebounds per-game
+# 3. Alysha Clark with 3.4 defensive rebounds per-game
+# TODO: Calculate the average defensive rebounds per-game among these three players for the Seattle Storm and
+# save it to a variable
+# TODO: Print the saved variable as a floating point number
+print()
