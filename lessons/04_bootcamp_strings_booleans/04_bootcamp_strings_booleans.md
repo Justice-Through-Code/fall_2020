@@ -20,7 +20,7 @@ Today we'll learn about the **remaining two primitive data types in python, stri
 
 In general, strings are how we work with text in python! The most important thing to remember about strings is that **they always must have quotes around the text**, and quotes can be either **single quotes** (`'`) or **double quotes** (`"`)
 
-To work with strings today, let's make a new python script `bootcamp_scripts/strings.py`
+To work with strings today, let's make a new python script `bootcamp_scripts/strings_practice.py`
 
 #### Creating strings
 
@@ -36,7 +36,7 @@ print(street)
 Here I'm using single quotes, but double quotes would work too. The key is just to be consistent! This prints out the string variable as text:
 
 ```console
-$ python strings.py 
+$ python strings_practice.py 
 Amsterdam Avenue
 ```
 
@@ -56,7 +56,7 @@ print(lyrics)
 When we run this, the text prints out in the console with as much as can fit on each line. (If you resize your command line window, you'll notice it might look different)
 
 ```console
-$ python strings.py 
+$ python strings_practice.py 
 At first I was afraid, I was petrified, Kept thinking I could never live without you by my side, But then I spent so many nights thinking how you did me wrong, And I grew strong
 ```
 
@@ -113,7 +113,7 @@ print(lyrics)
 This prints as:
 
 ```console
-$ python strings.py 
+$ python strings_practice.py 
 At first I was afraid
 	I was petrified
 
@@ -141,7 +141,7 @@ print(my_f_string)
 So, when we run this, we get:
 
 ```console
-$ python strings.py 
+$ python strings_practice.py 
 The profit today is $120
 ```
 
@@ -177,7 +177,7 @@ print(fruit3)
 This gives us the combined strings:
 
 ```console
-python strings.py 
+python strings_practice.py 
 applebanana
 ```
 
@@ -195,7 +195,7 @@ print(lyrics.lower())
 We can see that these functions convert our entire text to upper or lower case:
 
 ```console
-$ python strings.py 
+$ python strings_practice.py 
 AT FIRST I WAS AFRAID
 at first i was afraid
 ```
@@ -208,7 +208,7 @@ We haven't explicitly talked about it yet, but strings CAN have numbers in them,
 ## 2. Boolean variables (`True`/`False`)
 
 The [Boolean data type](https://problemsolvingwithpython.com/04-Data-Types-and-Variables/04.02-Boolean-Data-Type/#:~:text=In%20Python%2C%20boolean%20variables%20are,the%20True%20and%20False%20keywords.&text=The%20output%20%3Cclass%20'bool',lowercase%20true%20returns%20an%20error.) in python can take two values, either `True` or `False`. 
-Lets make a script at `bootcamp_scripts/boolean.py` to practice:
+Lets make a script at `bootcamp_scripts/boolean_practice.py` to practice:
 
 Just like with strings, integers, and floats, we can save Boolean data to variables:
 
@@ -222,7 +222,7 @@ print(var_b)
 When we run the script, we get:
 
 ```console
-$ python boolean.py 
+$ python boolean_practice.py 
 True
 False
 ```
@@ -256,7 +256,7 @@ print(f'd: {type(d)}')
 
 This gives us:
 ```console
-$ python boolean.py 
+$ python boolean_practice.py 
 a: <class 'str'>
 b: <class 'int'>
 c: <class 'float'>
@@ -296,7 +296,7 @@ print(my_float)
 
 This returns:
 ```console
-$ python boolean.py 
+$ python boolean_practice.py 
 2.5
 ```
 
@@ -310,7 +310,7 @@ print(my_int)
 
 This returns:
 ```console
-$ python boolean.py 
+$ python boolean_practice.py 
 2
 ```
 
@@ -324,9 +324,9 @@ print(my_int)
 
 This returns an error
 ```console
-$ python boolean.py 
+$ python boolean_practice.py 
 Traceback (most recent call last):
-  File "boolean.py", line 2, in <module>
+  File "boolean_practice.py", line 2, in <module>
     my_int = int(my_string)
 ValueError: invalid literal for int() with base 10: '2.5'
 ```
@@ -345,9 +345,9 @@ print(my_float)
 We get an error here because python isn't sure exactly how to treat this information as a number:
 
 ```console
-$ python boolean.py 
+$ python boolean_practice.py 
 Traceback (most recent call last):
-  File "boolean.py", line 2, in <module>
+  File "boolean_practice.py", line 2, in <module>
     my_float = float(my_string)
 ValueError: could not convert string to float: '2 + 5 + 0.3 + h89.403'
 ```
