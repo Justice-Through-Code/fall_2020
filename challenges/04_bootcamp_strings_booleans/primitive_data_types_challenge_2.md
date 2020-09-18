@@ -59,22 +59,6 @@ You can see we can even include expressions such as "a+b" in a format-string and
 
 *Additional, but optional, reading resources (these will also be included at the bottom): https://realpython.com/python-f-strings/*
 
-### Challenge 1: Printing the temperature in different units
-
-Can you re-write the code below to use format-strings instead so that only two `print()` statements are needed, one for fahrenheit and one for celsius?
-
-```python
-current_temp_in_f = 85
-# This is the formula for converting between fahrenheit and celsius
-current_temp_in_c = 5/9*current_temp_in_f - 32
-print("Current temperature in degrees fahrenheit:")
-print(current_temp_in_f)
-print("Current temperature in degrees celsius:")
-print(current_temp_in_c)
-```
-
-Put your solution in a file called `print_exercise_1.py` and run it using `python3 print_exercise_1.py` to verify you get the expected output. 
-
 ### Challenge 2: Storing and calculating 2020 NBA playoff statistics 
 
 In the 2020 NBA playoffs, Jamal Murray, Fred VanVleet, and James Harden rank #1, #2, and #3 respectively for the number of 3-point shots made at 46, 43, and 37. 
