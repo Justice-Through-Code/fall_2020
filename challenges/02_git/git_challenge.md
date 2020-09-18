@@ -55,7 +55,7 @@ $ git add README.md
 ```
 You can check the status again to see that the file is now tracked and staged. Next, we want to commit the changes to git history. To do so, run the command:
 ```
-$ git commit -m 'Created README`
+$ git commit -m 'Created README'
 ```
 
 The last step is to push your changes! Run the command:
