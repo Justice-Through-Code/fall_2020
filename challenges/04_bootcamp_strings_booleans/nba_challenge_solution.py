@@ -17,7 +17,6 @@ print("Challenge 2.3 Solution: Store the number of three point shot attempts in 
 jamal_murray_3pts_attempts = 93
 fred_vanvleet_3pts_attempts = 110
 james_harden_3pts_attempts = 109
-print()
 
 print("Challenge 2.4 Solution: Build on your print statement")
 # TODO: Copy the three print statements you wrote in Challenge 2.2 and extend them to also print
@@ -40,26 +39,58 @@ print(f"In the 2020 NBA playoffs, Jamal Murray's 3 point percentage was {jamal_m
 print(f"In the 2020 NBA playoffs, Fred VanVleet's 3 point percentage was {fred_vanvleet_3pts_percentage}")
 print(f"In the 2020 NBA playoffs, James Harden's 3 point percentage was {james_harden_3pts_percentage}")
 
-print("Challenge 3.1 Solution: Calculate, store, and print total points scored")
-# In the 2020 WNBA season, Seattle Storm player Breanna Stewart played 20 games and averaged 19.7 points per-game.
-# TODO: Calculate the total number of points Breanna Stewart scored in the 2020 WNBA season
-# TODO: Cast the calculated number to an integer using `int()` and save to a new variable
-# TODO: Print the cast variable as part of a string explaining the statistic for Breanna Stewart,
-# e.g. "In the 2020 WNBA season, ... Player X scored Y points total"
-breanna_stewart_total_points_scored = 20 * 19.7
-total_points_scored_int = int(breanna_stewart_total_points_scored)
-print(f"In the 2020 WNBA season, Seattle Storm player Breanna Stewart scored a total of {total_points_scored_int}")
-print()
+print('Challenge 3.1 Solution')
+print('The Lakers went all in this offseason and swung a deal for former \
+Pelicans forward Anthony Davis. \nThey sent a package of Brandon Ingram,\
+Lonzo Ball, Josh Hart, and 3 first-round picks to New Orleans to land Davis. \
+\nThose three have made good developments with the Pelicans, especially \
+Brandon Ingram. \nBut the deal is still a huge win for the Lakers as Lebron\
+, Davis, and company have put together an incredible season. \nLos Angeles \
+has ridden James and Davis, along with a supporting cast built around them, \
+to the second-best record in the NBA. \nThe Lakers ended the season atop\
+the Western Conference with a record of 49-14. \nThey were narrowly behind \
+the Bucks for the best record in the league. \nDavis proved to the final \
+piece necessary for the Lakers to rebound from missing the playoffís last \
+year. \nLos Angeles was a dominant club on both sides of the ball and are \
+in a position to have another successful year next season. ')
 
-print("Challenge 3.2: Average defensive rebounds")
-# In the 2020 WNBA season, the Seattle Storm's top 3 defensive rebounders were
-# 1. Breanna Stewart with 7.3 defensive rebounds per-game
-# 2. Natasha Howard with 4.7 defensive rebounds per-game
-# 3. Alysha Clark with 3.4 defensive rebounds per-game
-# TODO: Calculate the average defensive rebounds per-game among these three players for the Seattle Storm and
-# save it to a variable
-average_defensive_rebounds = (7.3 + 4.7 + 3.4)/3
-# TODO: Print the saved variable as a floating point number
-print("In the 2020 WNBA season, Breanna Stewart, Natasha Howard, and Alysha Clark of the Seattle Storm averaged"
-      f"{average_defensive_rebounds} per-game")
-print()
+print('Challenge 3.2 Solution')
+paragraph = 'The Lakers went all in this offseason and swung a deal for former \
+Pelicans forward Anthony Davis. \nThey sent a package of Brandon Ingram,\
+Lonzo Ball, Josh Hart, and 3 first-round picks to New Orleans to land Davis. \
+\nThose three have made good developments with the Pelicans, especially \
+Brandon Ingram. \nBut the deal is still a huge win for the Lakers as Lebron\
+, Davis, and company have put together an incredible season. \nLos Angeles \
+has ridden James and Davis, along with a supporting cast built around them, \
+to the second-best record in the NBA. \nThe Lakers ended the season atop\
+the Western Conference with a record of 49-14. \nThey were narrowly behind \
+the Bucks for the best record in the league. \nDavis proved to the final \
+piece necessary for the Lakers to rebound from missing the playoffís last \
+year. \nLos Angeles was a dominant club on both sides of the ball and are \
+in a position to have another successful year next season. '
+
+print(paragraph.upper())
+
+
+print('Challenge 3.3 Solution')
+lakers_are_best = False
+print(f'The statement that the Lakers are the best NBA team is \
+{lakers_are_best}.')
+
+
+print('Challenge 3.4 Solution')
+print(int(lakers_are_best))
+print(float(lakers_are_best))
+
+print('Challenge 3.5 Solution')
+# convert to string
+print(str(jamal_murray_3pts_percentage))
+print(str(fred_vanvleet_3pts_percentage))
+print(str(james_harden_3pts_percentage))
+
+#convert to integer
+print(int(jamal_murray_3pts_percentage))
+print(int(fred_vanvleet_3pts_percentage))
+print(int(james_harden_3pts_percentage))
+
+
