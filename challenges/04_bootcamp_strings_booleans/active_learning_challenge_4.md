@@ -50,7 +50,7 @@ Debug this section of the python script.
 Fix the comments in this section of the python script. 
 
 ### Challenge 1.5:
-Below each comment with the format "# Q: question here", add a comment answering the question. 
+Below each comment with the format `# Q: question here`, add a comment answering the question. 
 
 ### Challenge 1.6:
 Debug this section of the python script. Run the script to make sure it works!
