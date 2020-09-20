@@ -9,7 +9,7 @@ In your jtc_class_code git repository, in the challenges folder, first make a fo
 
 1. Convert a temperature of 100 degrees fahrenheit to celsius
     * Save this to a variable called `celsius_100`, and use `print()` to print out the value
-    * Is the resulting temperature you get an integer or boolean? How do you know?
+    * Is the resulting temperature you get an integer or float? How do you know?
 2. Convert a temperature of 0 degrees fahrenheit to celsius
     * Save this to a variable called `celsius_0`, and use `print()` to print out the value
 3. Convert a temperature of 34.2 degrees fahrenheit to celsius
