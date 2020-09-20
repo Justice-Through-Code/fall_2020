@@ -5,7 +5,7 @@
 
 * Make sure you feel comfortable with using the command line
 * Make sure you feel comfortable pushing changes to your course folder to your course github repo
-* Make a folder called `bootcamp_scripts` in your class folder (your github repo)
+* Make a folder called `bootcamp_scripts` inside the `class_scripts` folder your `jtc_class_code` repository (your github repo)
 
 # Outline of class agenda
 
