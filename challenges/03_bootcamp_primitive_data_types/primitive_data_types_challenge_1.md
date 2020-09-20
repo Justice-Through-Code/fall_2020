@@ -1,5 +1,7 @@
 # Primitive Data Types Challenge 1: Converting temperatures
 
+<img src="https://storage.googleapis.com/ltkcms.appspot.com/fs/yd/images/cover/thermometer-in-snow.base?v=1591222156" width="650">
+
 
 In your jtc_class_code git repository, in the challenges folder, first make a folder called `03_primitive_data_types_part_1`. Inside this folder, you can make a script called `temperature.py` and run it using `python temperature.py` to verify you get the expected output. 
 
