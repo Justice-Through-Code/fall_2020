@@ -22,6 +22,8 @@ tip_percent_float = float(tip_percent_str)
 print(f"You are splitting {format_currency(bill_total_float)} among {num_people_int} people with a {tip_percent_float}% tip.")
 confirm_input = input("> Type y if this input is correct, or any other key to quit: ")
 correct_input = confirm_input == 'y'
+
+# Don't worry about this if statement! We will review later!
 if correct_input == False:
     print("Incorrect input. Quitting...")
     exit()
