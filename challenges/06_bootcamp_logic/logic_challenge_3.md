@@ -14,6 +14,8 @@ There are 5 code snippets here that throw errors or give incorrect outputs as of
 
 ## Challenge 3.2
 
+<img src="https://image.freepik.com/free-photo/financial-stock-market-graph-chart-stock-market-investment-trading-screen_9693-990.jpg" width="800">
+
 ### Overview of the challenge
 
 Imagine that you are managing money for your clients and investing it into the stock market. You are only concerned with 5 stocks - Amazon, Apple, Facebook, Google and Microsoft.
@@ -26,20 +28,26 @@ For example, one of your clients named Alex has $5000 in savings. He is interest
 
 
 #### Challenge 3.2.1 - Creating variables
-1. Create variables to store the current approximate market price of these 5 companies - Alphabet (Google), Amazon, Apple, Facebook and Microsoft.
+* Create variables to store the current approximate market price of these 5 companies - Alphabet (Google), Amazon, Apple, Facebook and Microsoft.
 
-### Challenge 3.2.2 - Taking user input
-1. Write code to take in the name of the client as the user input.
-2. Write code to get his savings as user input.
-3. Write code to find out which stock does the client is interested in as user input.
+#### Challenge 3.2.2 - Taking user input
+* Write code to take in the name of the client as the user input.
+* Write code to get his savings as user input.
+* Write code to find out which stock does the client is interested in as user input.
 
-### Challenge 3.2.3 - Perform user-specific calculations
-1. Based on the 3 user inputs, calculate the number of stocks that can be purchased by using conditional (if-elif-else) statements.
+#### Challenge 3.2.3 - Perform user-specific calculations
+* Based on the 3 user inputs, calculate the number of stocks that can be purchased by using conditional (if-elif-else) statements.
 
-### Challenge 3.2.4 - Output
-1. Print the output in this format
+#### Challenge 3.2.4 - Output
+* Print the output in this format
 
 ```console
 Alex has $5000 in savings and he can buy 50 shares of Apple at the current price of $100.
 ```
 
+### Challenge 3.3 - Push to Github
+
+Great job! Now, as the final part of your workflow for this challenge, let's stage (`git add .`), commit (*don't forget a commit message*), and push the `logic_challenge.py` script you worked on to your `jtc_class_code` github repository.
+
+
+* Remember to check your Github repo online at the end to make sure this worked
