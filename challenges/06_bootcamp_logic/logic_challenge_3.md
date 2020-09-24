@@ -1,18 +1,20 @@
 # Logical and Conditonal Operators - Challenge 3
 
 There are 2 parts to this challenge:
-1. Debug code snippets
-2. Stock Market Calculations
+1. Debugging code snippets
+2. Playing with the stock market
 
-In this challenge, we are providing you an incomplete script called `playing_with_stocks_challenge.py`. You will be working on this file to debug some code snippets and also perform some basic stock market calculations.
+In this challenge, we are providing you an incomplete script called `logic_challenge.py`. You will be working on this file to debug some code snippets and also perform some basic stock market calculations.
 
-## Challenge 3.1
+## Challenge 3.1 - Debugging code snippets
+
+<img src="https://img.freepik.com/free-photo/technology-binary-code-number-data-alert-system-error-message-display-screen_73523-1311.jpg" width="800">
 
 ### Overview of the challenge
 
 There are 5 code snippets here that throw errors or give incorrect outputs as of now. Based on the lecture, try to debug these code snippets so that the errors disappear and we have the correct output.
 
-## Challenge 3.2
+## Challenge 3.2 - Playing with the stock market
 
 <img src="https://image.freepik.com/free-photo/financial-stock-market-graph-chart-stock-market-investment-trading-screen_9693-990.jpg" width="800">
 

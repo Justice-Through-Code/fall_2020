@@ -64,7 +64,7 @@ print()
 print()
 print()
 
-print("Challenge 3.2: Playing with stocks")
+print("Challenge 3.2: Playing with the stock market")
 
 print()
 
