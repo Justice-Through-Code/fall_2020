@@ -36,35 +36,26 @@ In this challenge, you will need to:
 * make a new directory called `contributors` with a file called `contributors.txt` that contains your names
 * commit and push your changes
 
-### Challenge 1.1:
-First, pull the new data from the class repository to retrieve the files for this challenge.
+**NOTE: You don't have to debug any lines that include the `input()` command. The input() command returns a string.**
 
-Solution:
-```
-$ git pull origin master
-```
+
+
+### Challenge 1.1:
+First, upload this file to the folder `jtc_class_code/challenges/04_bootcamp_strings_booleans`.
 
 ### Challenge 1.2:
-Navigate to the directory `challenges` and then to the directory `04_bootcamp_strings_booleans`.
-
-Solution:
-```
-$ cd challenges/04_bootcamp_strings_booleans
-```
+Debug this section of the python script. (See `tip_calculator_solution.py`)
 
 ### Challenge 1.3:
-Debug this section of the python script. (See `tip_calculator_solution.py`)
-
-### Challenge 1.4:
 Fix the comments in this section of the python script. (See `tip_calculator_solution.py`)
 
+### Challenge 1.4:
+Below each comment with the format `# Q: question here`, add a comment answering the question. (Hint: you only need to worry about lines 18 and 20.) (See `tip_calculator_solution.py`)
+
 ### Challenge 1.5:
-Below each comment with the format "# Q: question here", add a comment answering the question. (See `tip_calculator_solution.py`)
+Debug this section of the python script. Run the script to make sure it works! (See `tip_calculator_solution.py`)
 
 ### Challenge 1.6:
-Debug this section of the python script. (See `tip_calculator_solution.py`)
-
-### Challenge 1.7:
 Make a directory called `contributors`. Navigate into this directory and make a file called `contributors.txt`. In this file, add "Contributors: " and your names.
 
 Solution:
@@ -78,6 +69,7 @@ $ touch contributors.txt
 ### Challenge 1.7:
 Navigate back to the challenges directory (two levels up: contributors -> 04_bootcamp_strings_booleans -> challenges). Add, commit, and push your work!
 
+
 Solution:
 ```
 $ cd ../..
@@ -85,3 +77,5 @@ $ git add 04_bootcamp_strings_booleans
 $ git commit -m 'Finished challenge 4'
 $ git push -u origin master
 ```
+
+

@@ -36,26 +36,24 @@ In this challenge, you will need to:
 * make a new directory called `contributors` with a file called `contributors.txt` that contains your names
 * commit and push your changes
 
-### Challenge 1.1:
-First, pull the new data from the class repository to retrieve the files for this challenge.
+**NOTE: You don't have to debug any lines that include the `input()` command. The input() command returns a string.**
 
+### Challenge 1.1:
+First, upload this file to the folder `jtc_class_code/challenges/04_bootcamp_strings_booleans`.
 
 ### Challenge 1.2:
-Navigate to the directory `challenges` and then to the directory `04_bootcamp_strings_booleans`.
-
-### Challenge 1.3:
 Debug this section of the python script.
 
-### Challenge 1.4:
+### Challenge 1.3:
 Fix the comments in this section of the python script. 
 
-### Challenge 1.5:
-Below each comment with the format `# Q: question here`, add a comment answering the question. 
+### Challenge 1.4:
+Below each comment with the format `# Q: question here`, add a comment answering the question. (Hint: you only need to worry about lines 18 and 20.)
 
-### Challenge 1.6:
+### Challenge 1.5:
 Debug this section of the python script. Run the script to make sure it works!
 
-### Challenge 1.7:
+### Challenge 1.6:
 Make a directory called `contributors`. Navigate into this directory and make a file called `contributors.txt`. In this file, add "Contributors: " and your names.
 
 ### Challenge 1.7:
