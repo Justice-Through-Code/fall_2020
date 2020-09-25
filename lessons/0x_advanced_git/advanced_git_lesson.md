@@ -109,8 +109,3 @@ However, sometimes you and your collaborator will step on each others' toes and 
 This is a merge conflict. We will talk about how to deal with these in the challenge.
 
 Remember that Git is always keeping track of changes to files so pulling might overwrite your work if you and your collaborator were editing the same part of the code, but you can always recover your work. In the next section, we will talk about how to handle these kinds of conflicts.
-
-## 1. What are some common problems you might encounter when collaborating?
-Hopefully, you and your collaborator divided up the work on the project so that you are each working on separate parts of the code. However, there will sometimes be cases where either accidentally or intentionally you are both working on the same lines of code. In these cases, when you pull in your collaborator's changes you may get what is called a merge conflict. That might look something like this:
-
-XXX
