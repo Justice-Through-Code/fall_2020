@@ -26,11 +26,11 @@ The market price of these stocks is available to you. For every client, you need
 
 The name of the client, savings of the client and the stock under consideration need to be taken as user input.
 
-For example, one of your clients named Alex has $5000 in savings. He is interested in knowing how many Amazon shares can he buy with his current savings. You need to output the number of Amazon stocks that Alex can purchase with his savings at the current rate.
+For example, one of your clients named Alex has $5000 in savings. He is interested in knowing how many Apple shares can he buy with his current savings. You need to print the number of Apple stocks that Alex can purchase with his savings at the current market price of Apple.
 
 
 #### Challenge 3.2.1 - Creating variables
-* Create variables to store the current approximate market price of these 5 companies - Alphabet (Google), Amazon, Apple, Facebook and Microsoft.
+* Create variables to store the current approximate market price of these 5 companies - Amazon, Apple, Facebook, Google and Microsoft.
 
 #### Challenge 3.2.2 - Taking user input
 * Write code to take in the name of the client as the user input.
