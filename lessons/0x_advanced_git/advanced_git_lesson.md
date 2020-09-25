@@ -33,7 +33,7 @@ When you are working on your own, when you push your code really only impacts yo
 
 We will talk about good practices for Git collaboration in the next sections.
 
-## 1. Why use Git to collaborate?
+## 2. Why use Git to collaborate?
 Git was actually designed solely to facilitate collaboration. It was created to help when people were working on building the Linux cluster, a common open-source operating system.
 
 (You can read more about the history of Git [here](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git) if you're interested.)
@@ -50,7 +50,7 @@ You can make some local changes, committing as you go, and then `push` your chan
 
 We're now going to take a look at some of the nitty gritty of how this collaboration process works, and some typical problems you might encounter. You'll also practice this in the challenge exercise late.
 
-## 1. What are the basic steps of collaborating on Git?
+## 3. What are the basic steps of collaborating on Git?
 The first step of collaborating with Git is controlling who has edit access to the code. We will work on this in the challenge later.
 
 The other major consideration is how to amend your standard workflow to enable collaboration and try to avoid problems. Earlier, we talked about a typical work flow that looked like this:
@@ -108,4 +108,4 @@ However, sometimes you and your collaborator will step on each others' toes and 
 
 This is a merge conflict. We will talk about how to deal with these in the challenge.
 
-Remember that Git is always keeping track of changes to files so pulling might overwrite your work if you and your collaborator were editing the same part of the code, but you can always recover your work. In the next section, we will talk about how to handle these kinds of conflicts.
+Remember that Git is always keeping track of changes to files so pulling might overwrite your work if you and your collaborator were editing the same part of the code, but you can always recover your work. In the challenge, we will talk about how to handle these kinds of conflicts.
