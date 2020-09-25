@@ -104,7 +104,7 @@ In this case, you can either do a `git commit` if you are ready to accept this b
 
 However, sometimes you and your collaborator will step on each others' toes and will edit the same part of the code at the same time. Then, when you do your `git fetch`, you might instead see a message like this:
 
-XXX
+<img src="images/git-fetch_up-to-date.png" width="500">
 
 This is a merge conflict. We will talk about how to deal with these in the challenge.
 
