@@ -28,6 +28,10 @@ When you are working on your own, when you push your code really only impacts yo
 We will talk about good practices for Git collaboration in the next sections.
 
 ## 1. Why use Git to collaborate?
+Git was actually designed solely to facilitate collaboration. It was created to help when people were first creating the Linux cluster. 
+
+(You can read more about the history of Git [here](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git) if you're interested.)
+
 ## 1. What are the basic steps of collaborating on Git?
 The first step of collaborating with Git is controlling who has edit access to the code. We will work on this in the challenge later.
 
