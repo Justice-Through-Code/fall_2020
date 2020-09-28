@@ -51,6 +51,24 @@ In order for these changes to be tracked by Git, you will first need to add the 
 
 What is the next step in making this commit?
 
+1. Let's share this new file we created with our collaborator by pushing our commit with `git push`.
+
+1. In order for your collaborator to see these changes on their computer, we will need to `git pull`.
+
+If they have not yet cloned this repository to their computer and are just looking at the changes on GitHub, they will immediately be able to see this file once they refresh the page.
+
+If the have not yet cloned the repository, this would be a good time to do so that they have a copy on their local machine.
+
+They can copy the link to the repository from GitHub.
+
+<img src="images/git-clone.png" width="500">
+
+From terminal, they can then clone this to their local machine.
+
+Make sure that you are doing this in the directory where you want the repository's folder to live. One suggestion is to create a folder where you will put all of your Git repos - that way you won't get confused with your operating system's default organization scheme (e.g.,  the `Documents` folder on a Mac).
+
+<img src="images/git-clone-command-line.png" width="500">
+
 2. Now, let's make a change to the file that we just created. You can do this by opening the file in your favorite text editor, adding some text, and saving the file.
 
 Once again, we will need to have Git track the changes we have made in our repository.
@@ -75,4 +93,19 @@ git commit -m "A short, but clear message so that our future selves know what we
 git push
 ```
 
-4. Alright, now let's be bad collaborators and cause a conflict!
+4. Alright, now let's be bad collaborators and cause a conflict! Have your collaborator follow the above steps (i.e., create a file with the same name, make a change, and push that to GitHub).
+
+For this example to work, your collaborator will need to use the *same filename* and add text that is on the same line(s) as you, but has different content.
+
+For example, you might have written the following text in your file: `this is a piece of test code`
+
+And your collaborator might instead say something like: `mwahahaha I'm going to be a crummy collaborator and cause a merge conflict!`
+
+5. Have your collaborator commit their changes locally using `git commit -m`
+
+6. Now, have your collaborator try to push their commit and see what happens.
+
+Were you able to successfully push your code?
+
+## Step 4: Resolving merge conflicts
+1. In this case, your collaborator forgot to `git fetch` and then `git pull` at the beginning of their workflow so you both inadvertendly made changes to the same file.
