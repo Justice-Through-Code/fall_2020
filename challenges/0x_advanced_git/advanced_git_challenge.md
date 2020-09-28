@@ -24,7 +24,7 @@ This can be done on GitHub as long as you know the other person's username.
 3. You may need to confirm your login to GitHub - this is the password you initially used to login.
 <img src="images/03-confirm-login.png" width="500">
 
-4. Select `invite collaborator`
+4. Select `invite a collaborator`
 <img src="images/04-invite-collab.png" width="500">
 
 5. Find the person you want to collaborate with via their username, and actually send the invite!
@@ -32,7 +32,7 @@ This can be done on GitHub as long as you know the other person's username.
 
 Great! Now your collaborator should have full push/pull access to your repository.
 
-in order for your collaborator to start working in your repository, they will need to accept the collaborator invitation. Usually, github will send them an email with a link to follow. If not, they should be able to see the invitation in their [notifications](https://github.com/notifications).
+In order for your collaborator to start working in your repository, they will need to accept the collaborator invitation. Usually, github will send them an email with a link to follow. If not, they should be able to see the invitation in their [notifications](https://github.com/notifications).
 
 ## Step 3: Creating a merge conflict
 You can see another example of creating a merge conflict [here.](http://swcarpentry.github.io/git-novice/09-conflict/index.html)
