@@ -51,9 +51,9 @@ In order for these changes to be tracked by Git, you will first need to add the 
 
 What is the next step in making this commit?
 
-1. Let's share this new file we created with our collaborator by pushing our commit with `git push`.
+2. Let's share this new file we created with our collaborator by pushing our commit with `git push`.
 
-1. In order for your collaborator to see these changes on their computer, we will need to `git pull`.
+3. In order for your collaborator to see these changes on their computer, we will need to `git pull`.
 
 If they have not yet cloned this repository to their computer and are just looking at the changes on GitHub, they will immediately be able to see this file once they refresh the page.
 
@@ -69,7 +69,7 @@ Make sure that you are doing this in the directory where you want the repository
 
 <img src="images/git-clone-command-line.png" width="500">
 
-2. Now, let's make a change to the file that we just created. You can do this by opening the file in your favorite text editor, adding some text, and saving the file.
+4. Now, let's make a change to the file that we just created. You can do this by opening the file in your favorite text editor, adding some text, and saving the file.
 
 Once again, we will need to have Git track the changes we have made in our repository.
 
@@ -87,13 +87,13 @@ After we have added all of the elements we want into the commit, we need to writ
 git commit -m "A short, but clear message so that our future selves know what we did in this commit"
 ```
 
-3. If we were actually working on our code, we might choose to make several commits before pushing our changes. (Remember the squirrel with their cheeks full of commit "nuts" we talked about before?) However, to move this example along, we are going to push our changes to the remote.
+5. If we were actually working on our code, we might choose to make several commits before pushing our changes. (Remember the squirrel with their cheeks full of commit "nuts" we talked about before?) However, to move this example along, we are going to push our changes to the remote.
 
 ```
 git push
 ```
 
-4. Alright, now let's be bad collaborators and cause a conflict! Have your collaborator follow the above steps (i.e., create a file with the same name, make a change, and push that to GitHub).
+6. Alright, now let's be bad collaborators and cause a conflict! Have your collaborator follow the above steps (i.e., create a file with the same name, make a change, and push that to GitHub).
 
 For this example to work, your collaborator will need to use the *same filename* and add text that is on the same line(s) as you, but has different content.
 
@@ -101,9 +101,9 @@ For example, you might have written the following text in your file: `this is a 
 
 And your collaborator might instead say something like: `mwahahaha I'm going to be a crummy collaborator and cause a merge conflict!`
 
-5. Have your collaborator commit their changes locally using `git commit -m`
+7. Have your collaborator commit their changes locally using `git commit -m`
 
-6. Now, have your collaborator try to push their commit and see what happens.
+8. Now, have your collaborator try to push their commit and see what happens.
 
 Were you able to successfully push your code?
 
