@@ -4,7 +4,7 @@ print()
 
 print("Question 1")
 
-print("Below is a dictionary of restaurants fetched from the Yelp. Go through the dictionary and figure print out the following 3 pieces of information about the restaurant: \n1. The latitude and longitude of Four Barrel Coffee \n2. The complete address of the Four Barrel Coffee, formatted as a string - it should include the address, city, state and the zip code. \n3. The website of Four Barrel Coffee.")
+print("Below is a dictionary of restaurants fetched from Yelp. Go through the dictionary and print out the following 3 pieces of information about the restaurant: \n1. The latitude and longitude of Four Barrel Coffee \n2. The complete address of Four Barrel Coffee, formatted as a string - it should include the address, city, state and the zip code. \n3. The website of Four Barrel Coffee.")
 
 restaurants = {
     "total": 8228,
