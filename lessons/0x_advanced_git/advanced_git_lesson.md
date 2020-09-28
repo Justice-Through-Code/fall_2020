@@ -1,9 +1,12 @@
 # Before class
 
 # Outline of class agenda
-1. Learn about using git with another user (i.e., collaborating on code)
-2. Setting up Git preferences on our computers
-3. Trying out some collaborative coding
+1. Lesson
+  * Learn about using git with another user (i.e., collaborating on code)
+  * The importance of `git fetch` and `git pull`
+2. Challenge
+  * Setting up Git preferences on our computers
+  * Trying out some collaborative coding
 
 # Class
 ## 1. Refresher on Git
@@ -76,7 +79,7 @@ Why do you think it might be helpful to check for changes before actually accept
 
 We will talk more in the next section about what to do after fetching.
 
-#4. How to avoid Git collaboration headaches: The importance of pulling before working
+## 4. How to avoid Git collaboration headaches: The importance of pulling before working
 In the previous section, we talked about a modification that we will add to the start of our Git workflow.
 
 Now, every time we sit down in our computer to code we will first check to see if anyone else has made changes in the meantime using `git fetch`.
@@ -119,7 +122,7 @@ This is a merge conflict. We will talk about how to deal with these in the chall
 
 Remember that Git is always keeping track of changes to files so pulling might overwrite your work if you and your collaborator were editing the same part of the code, but you can always recover your work. In the challenge, we will talk about how to handle these kinds of conflicts.
 
-#5. Wrap up
+## 5. Wrap up
 Today we talked about the basics of collaborating using Git. The most important addition to our workflow is checking for changes before we start our own work. This looks like:
 
 ```
