@@ -1,4 +1,4 @@
-print("Challenge: Favoruite Restuarants")
+print("Challenge: Favourite Restaurants")
 
 print()
 
