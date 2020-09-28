@@ -108,4 +108,23 @@ And your collaborator might instead say something like: `mwahahaha I'm going to 
 Were you able to successfully push your code?
 
 ## Step 4: Resolving merge conflicts
-1. In this case, your collaborator forgot to `git fetch` and then `git pull` at the beginning of their workflow so you both inadvertendly made changes to the same file.
+1. In this case, your collaborator forgot to `git fetch` and then `git pull` at the beginning of their workflow so you both inadvertently made changes to the same file.
+
+If they had fetched and pulled prior to making there changes, there would be no merge conflict. However, now we need to resolve where your workflows have diverged before we can continue.
+
+If you've been reading the Git messages closely, you may have noticed that it is offering you a way forward:
+<img src="images/git-merge-message.png" width="500">
+
+2. If you look at the file in your text editor, you'll notice that the lines where there is a discrepancy are marked with `<<<<<<<` and `>>>>>>>`. This may look different depending on your text editor, but in Atom mine looked something like this:
+<img src="images/merge-conflict-in-atom.png" width="500">
+
+In order to move forward, you will need to edit the file so that only the text you want in the final version remains. This will also mean removing the tags surrounding the text that marks the zone of conflict.
+
+After making these changes, your file might look something like this:
+<img src="images/merge-conflict-in-atom-post-resolve.png" width="500">
+
+3. Once you have modified the code in your text editor, you will be able to finish making this commit by using `git add`.
+<img src="images/git-merge-message.png" width="500">
+
+4. You can either write your own commit message, or accept the default.
+<img src="images/merge-commit-message.png" width="500">
