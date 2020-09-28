@@ -74,6 +74,15 @@ Fetching essentially "sniffs" the remote location to see whether your local vers
 
 Why do you think it might be helpful to check for changes before actually accepting them?
 
+We will talk more in the next section about what to do after fetching.
+
+#4. How to avoid Git collaboration headaches: The importance of pulling before working
+In the previous section, we talked about a modification that we will add to the start of our Git workflow.
+
+Now, every time we sit down in our computer to code we will first check to see if anyone else has made changes in the meantime using `git fetch`.
+
+In order to check whether there are changes on the remote version of the code, we then need to use `git status` to show us a comparison between our version of the world and what exists on the remote.
+
 Typically, you will either already be in sync with the remote branch or you will need to "pull" the changes.
 
 Here is an example of what your system might look like after fetching:
