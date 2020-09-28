@@ -2,7 +2,7 @@
 
 You might remember that you 'forked' the `jtc_class_code` repository from the one we created a while ago. Anytime you want to get updates from this 'master' repo (from `Justice-Through-Code/jtc_class_code`) to your own (`your_username/jtc_class_code`), you'll have to get these changes using these steps. Here are the instructions
 
-## 1. Add the repo as 'upstream'
+### 1. Add the repo as 'upstream'
 
 The master repo that we created is called the 'upstream' one here
 
@@ -10,7 +10,7 @@ The master repo that we created is called the 'upstream' one here
 $ git remote add upstream https://github.com/Justice-Through-Code/jtc_class_code.git
 ```
 
-## 2. 'Fetch' the upstream content
+### 2. 'Fetch' the upstream content
 ```console
 $ git fetch upstream
 ```
