@@ -118,3 +118,19 @@ However, sometimes you and your collaborator will step on each others' toes and 
 This is a merge conflict. We will talk about how to deal with these in the challenge.
 
 Remember that Git is always keeping track of changes to files so pulling might overwrite your work if you and your collaborator were editing the same part of the code, but you can always recover your work. In the challenge, we will talk about how to handle these kinds of conflicts.
+
+#5. Wrap up
+Today we talked about the basics of collaborating using Git. The most important addition to our workflow is checking for changes before we start our own work. This looks like:
+
+```
+git fetch
+git status
+git pull
+```
+
+In the challenge exercise, we are going to review how to handle merge conflicts. There are lost of helpful resources online that cover this topic. Here are just a few:
+
+[an example that includes how to create a merge conflict]https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+[basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts) and [advanced](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging) merge conflicts
+[a blog post on handling and avoiding merge conflicts](http://weblog.masukomi.org/2008/07/12/handling-and-avoiding-conflicts-in-git/)
+[an example using a guacamole recipe](https://coderefinery.github.io/git-intro/08-conflicts/)
