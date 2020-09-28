@@ -131,7 +131,7 @@ git status
 git pull
 ```
 
-In the challenge exercise, we are going to review how to handle merge conflicts. There are lost of helpful resources online that cover this topic. Here are just a few:
+In the challenge exercise, we are going to review how to handle merge conflicts. There are lots of helpful resources online that cover this topic. Here are just a few:
 
 - [an example that includes how to create a merge conflict] (https://www.atlassian.com/git/tutorials/using-branches/merge-conflictsEE)
 - [basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts) and [advanced](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging) merge conflicts
