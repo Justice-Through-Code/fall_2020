@@ -7,6 +7,7 @@
 2. Challenge
   * Setting up Git preferences on our computers
   * Trying out some collaborative coding
+  * Dealing with merge conflicts
 
 # Class
 ## 1. Refresher on Git
@@ -133,7 +134,7 @@ git pull
 
 In the challenge exercise, we are going to review how to handle merge conflicts. There are lots of helpful resources online that cover this topic. Here are just a few:
 
-- [an example that includes how to create a merge conflict] (https://www.atlassian.com/git/tutorials/using-branches/merge-conflictsEE)
+- [an example that includes how to create a merge conflict](https://www.atlassian.com/git/tutorials/using-branches/merge-conflictsEE)
 - [basic](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts) and [advanced](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging) merge conflicts
 - [a blog post on handling and avoiding merge conflicts](http://weblog.masukomi.org/2008/07/12/handling-and-avoiding-conflicts-in-git/)
 - [an example on merging using a guacamole recipe](https://coderefinery.github.io/git-intro/08-conflicts/)
