@@ -7,6 +7,22 @@ In this challenge, you will:
 * Practice dealing with merge conflicts
 
 ## Step 1: Updating your local Git settings
+When you first open Git, it is going to make some assumptions about your default preferences. These settings can be viewed by typing `git config --list` from your terminal session.
+
+You can see all possible options for things you could set by typing `git config`.
+
+In the earlier lesson on Git, you used `git config` to modify your username and email address.
+
+Because today you will be working a lot with commit messages, another helpful configuration setting might be to set your default text editor. If you don't do this, Git will usually default to using a command line text editor like [Vim](https://www.vim.org/), [Vi](https://en.wikipedia.org/wiki/Vi), or [emacs](https://www.gnu.org/s/emacs/).
+
+While [some people](https://en.wikipedia.org/wiki/Editor_war#:~:text=vi%20is%20a%20smaller%20and,vim%20is%20almost%20as%20fast.&text=Emacs%20uses%20metakey%20chords.) love these text editors, they can be a bit cumbersome to learn especially when you are new to using terminal.
+
+Luckily, we can configure our Git session to use whatever text editor we prefer. Here are some options for other text editors you have used in class so far:
+- Atom `git config --global core.editor "atom --wait"`
+- Sublime (on a Mac) `git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -w"`
+- Sublime (on a 64 bit PC) `git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"`
+
+A full list for other common text editors can be found [here](http://swcarpentry.github.io/git-novice/02-setup/index.html).
 
 ## Step 2: Adding collaborators
 In order to work with someone else on a GitHub repository, you must grant them write access to the code.
