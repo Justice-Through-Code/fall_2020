@@ -39,7 +39,7 @@ Since we're working on collaborative coding, you'll want to break into small gro
 
 <img src="images/create-page.png" width="500">
 
-4. For your first commit, make some changes to the README. This could be a description of the project (always a good idea to have this in yoru README - see [here](https://github.com/matiassingers/awesome-readme) for examples of quality READMEs), or just some junk text to get us going.
+4. For your first commit, make some changes to the README. This could be a description of the project (always a good idea to have this in your README - see [here](https://github.com/matiassingers/awesome-readme) for examples of quality READMEs), or just some junk text to get us going.
 
 Note: this process can also be [done from the command line](https://www.codegrepper.com/code-examples/shell/how+to+initialize+a+git+repository+command+line).
 
