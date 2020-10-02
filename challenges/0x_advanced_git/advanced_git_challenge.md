@@ -24,7 +24,33 @@ Luckily, we can configure our Git session to use whatever text editor we prefer.
 
 A full list for other common text editors can be found [here](http://swcarpentry.github.io/git-novice/02-setup/index.html).
 
-## Step 2: Adding collaborators
+## Step 2: Creating a Git repo for this challenge
+In order to practice merge conflicts today, but not mess up any of your existing Git repositories, we're going to create a fresh repo to work with today.
+
+Since we're working on collaborative coding, you'll want to break into small groups of 2-3 people. Only one person needs to make the repository (the others will get access to it by `cloning` in a little while).
+
+1. Navigate to [github.com](https://github.com/). You may need to login to your account.
+
+2. On the left-hand side of the navigation bar, there should be an option to create a new repository.
+
+<img src="images/new-repo.png" width="500">
+
+3. This should take you to a page where you can give this new repository. Give your repo a name, decide if it's going to be public or private, and initialize it with a README.
+
+<img src="images/create-page.png" width="500">
+
+4. For your first commit, make some changes to the README. This could be a description of the project (always a good idea to have this in yoru README - see [here](https://github.com/matiassingers/awesome-readme) for examples of quality READMEs), or just some junk text to get us going.
+
+Note: this process can also be [done from the command line](https://www.codegrepper.com/code-examples/shell/how+to+initialize+a+git+repository+command+line).
+
+## Sidebar: A quick note on terms
+The convention in Git is to call the copy of the code on your own computer the `local` version (or, more precisely, `branch`) and the remote point the `master`.
+
+There has been [substantial debate](https://mail.gnome.org/archives/desktop-devel-list/2019-May/msg00066.html) about whether this use of the word master in this context is derived from the context of slavery or not. In light of this, [GitHub](https://www.bbc.com/news/technology-53050955) has pledged to replace the term master in upcoming releases of Git.
+
+If you would like to change the name of your primary branch away from the term master in the meantime, [here](https://dev.to/damcosset/replacing-master-in-git-2jim) are some straightforward instructions for doing so.
+
+## Step 3: Adding collaborators
 In order to work with someone else on a GitHub repository, you must grant them write access to the code.
 
 (Note: If you are working on a *public* repository, others will already have access.)
@@ -50,7 +76,7 @@ Great! Now your collaborator should have full push/pull access to your repositor
 
 In order for your collaborator to start working in your repository, they will need to accept the collaborator invitation. Usually, github will send them an email with a link to follow. If not, they should be able to see the invitation in their [notifications](https://github.com/notifications).
 
-## Step 3: Creating a merge conflict
+## Step 4: Creating a merge conflict
 You can see another example of creating a merge conflict [here.](http://swcarpentry.github.io/git-novice/09-conflict/index.html)
 
 1. Within your new shared repository, we will need to modify a file to use for our merge conflict example.
@@ -123,7 +149,7 @@ And your collaborator might instead say something like: `mwahahaha I'm going to 
 
 Were you able to successfully push your code?
 
-## Step 4: Resolving merge conflicts
+## Step 5: Resolving merge conflicts
 1. In this case, your collaborator forgot to `git fetch` and then `git pull` at the beginning of their workflow so you both inadvertently made changes to the same file.
 
 If they had fetched and pulled prior to making there changes, there would be no merge conflict. However, now we need to resolve where your workflows have diverged before we can continue.
