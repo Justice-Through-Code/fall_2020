@@ -1,22 +1,26 @@
-usernames = []
-passwords = []
+# Feel free to update the values in the user dictionary
+user = {
+    'name': 'Ash Rahman',
+    'email': 'ash.rahman@gmail.com',
+    'password': 'jtc+rocks!'
+}
 
-while (True):
-#infinite loop used so user is constantly asked to login or sign up - not a great idea to use infinite loops in practice however. Use ctrl-c to exit the program at any time.
+# Here is a while loop that runs as long as the email is incorrect
+# When the correct email is entered, we exit the while loop and move to the next input for password
+email = input('Email:')
 
-    response = input("Logging in? Type 1 and enter. Signing up? Type 2 and enter. ")
+# Checks the value of email in line 10
+while(email != user['email']):
+    # This code runs as long as the emails do not match
+    print('This email does not exist in our system. Please try again.')
+    # Ask to input email again and update value of email in line 10
+    email = input('Email: ')
 
-    if response == "1":
-        print ("Log In")
-        #ask the user for their username and password
-        #run through the usernames list, checking if the user's input username is present, and if so, that the corresponding password matches as well
-        #print out the correct response based on the username and password input
+# Seeing 'Password: ' in command line means we have exited the while loop
+password = input('Password: ')
 
-    elif response == "2":
-        print ("Sign Up")
-        #ask the user for a username
-        #if the username is used already, tell the user and send them back to the main page
-        #if not, ask for the users password and add their info to the lists
+# TODO: Write a while loop that checks whether the password is incorrect.
 
-    else:
-        #What should the program do when the user inputs a number which isn't 1 or 2?
+# TODO: Print 'Logging In...'
+
+# TODO: Print 'Welcome back, ' and the name in the user dictionary

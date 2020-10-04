@@ -31,44 +31,44 @@ print(restaurant)
 
 print()
 
-print("Question 2")
+# print("Question 2")
 
-# TODO: Create a new empty dictionary called fav_restaurants.
-# TODO: Choose 3 of your most favourite restaurants in NYC and add the following information for those restaurants inside fav_restaurants:
-#         1. Name of the restaurant - Should be the key of the dictionary
-#         2. Address of the restaurant - 1st value of the list
-#         3. Favourite dish in that restaurant - 2nd value of the list
-#         4. Opening and closing hours of that restaurant - 3rd value of the list
-# TODO: Print the dictionary.
+# # TODO: Create a new empty dictionary called fav_restaurants.
+# # TODO: Choose 3 of your most favourite restaurants in NYC and add the following information for those restaurants inside fav_restaurants:
+# #         1. Name of the restaurant - Should be the key of the dictionary
+# #         2. Address of the restaurant - 1st value of the list
+# #         3. Favourite dish in that restaurant - 2nd value of the list
+# #         4. Opening and closing hours of that restaurant - 3rd value of the list
+# # TODO: Print the dictionary.
 
-# The dictionary should look like this
+# # The dictionary should look like this
 
-'''
-fav_restaurants =
-{
-    "Subway": ["116th & Broadway, NY 10016", "Pizza Sub", "12 PM - 12 AM"]
-    "Dominoes": []
-    and so on....
-}
-'''
+# '''
+# fav_restaurants =
+# {
+#     "Subway": ["116th & Broadway, NY 10016", "Pizza Sub", "12 PM - 12 AM"]
+#     "Dominoes": []
+#     and so on....
+# }
+# '''
 
-print()
+# print()
 
-print("Question 3")
+# print("Question 3")
 
-print("Imagine that any 1 of your most favourite restaurants closed down during the Covid. Remove the details of that restaurant from the dictionary fav_restaurants.")
+# print("Imagine that any 1 of your most favourite restaurants closed down during the Covid. Remove the details of that restaurant from the dictionary fav_restaurants.")
 
-# TODO: Remove 1 restaurant from the dictionary fav_restaurants.
-# TODO: Print the new dictionary. The new dictionary should contain only 2 restaurants.
+# # TODO: Remove 1 restaurant from the dictionary fav_restaurants.
+# # TODO: Print the new dictionary. The new dictionary should contain only 2 restaurants.
 
-print()
+# print()
 
-print("Question 4")
+# print("Question 4")
 
-print("Imagine that another one of your most favourite restaurants modified its opening and closing hours during Covid. Update just the hours field (3rd value of the list) for 1 restaurant in the dictionary fav_restaurants.")
+# print("Imagine that another one of your most favourite restaurants modified its opening and closing hours during Covid. Update just the hours field (3rd value of the list) for 1 restaurant in the dictionary fav_restaurants.")
 
-# TODO: Update the hours field of 1 restaurant in the dictionary fav_restaurants.
-# TODO: Print the old and new open hours of the restaurant by accessing those fields from the dictionary.
-# TODO: Print the updated dictionary.
+# # TODO: Update the hours field of 1 restaurant in the dictionary fav_restaurants.
+# # TODO: Print the old and new open hours of the restaurant by accessing those fields from the dictionary.
+# # TODO: Print the updated dictionary.
 
-print()
+# print()
