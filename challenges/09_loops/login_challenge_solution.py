@@ -1,40 +1,31 @@
-usernames = []
-passwords = []
+# Feel free to update the values in the user dictionary
+user = {
+    'name': 'Ash Rahman',
+    'email': 'ash.rahman@gmail.com',
+    'password': 'jtc+rocks!'
+}
 
-while (True):
-#infinite loop used so user is constantly asked to login or sign up - not a great idea to use infinite loops in practice however. Use ctrl-c to exit the program at any time.
+# Here is a while loop that runs as long as the email is incorrect
+# When the correct email is entered, we exit the while loop and move to the next input for password
+email = input('Email:')
 
-    response = input("Logging in? Type 1 and enter. Signing up? Type 2 and enter. ")
+# Checks the value of email in line 10
+while(email != user['email']):
+    # This code runs as long as the emails do not match
+    print('This email does not exist in our system. Please try again.')
+    # Ask to input email again and update value of email in line 10
+    email = input('Email: ')
 
-    if response == "1":
-        print ("Log In")
-        username = input("Username: ")
-        password = input("Password: ")
-        successfulLogin = False
+# Seeing 'Password: ' in command line means we have exited the while loop
+password = input('Password: ')
 
-        for index in range(len(usernames)):
-            if usernames[index] == username and passwords[index] == password:
-                successfulLogin = True
-        if successfulLogin:
-            print ("Successfully logged in!")
-        else:
-            print ("Your username or password is incorrect")
+# TODO: Write a while loop that checks whether the password is incorrect.
+while(password != user['password']):
+    print(f'Password is incorrect. Please try again.')
+    password = input('Password: ')
 
-    elif response == "2":
-        print ("Sign Up")
-        username = input("Username: ")
-        usedUsername = False
+# TODO: Print 'Logging In...'
+print('Logging In...')
 
-        for user in usernames:
-            if user == username:
-                usedUsername = True
-        if usedUsername:
-            print ("Sorry that username is already taken")
-        else:
-            password = input("Password: ")
-            usernames.append(username)
-            passwords.append(password)
-            print ("Successfully signed up!")
-
-    else:
-        print ("Please type 1 or 2")
+# TODO: Print 'Welcome back, ' and the name in the user dictionary
+print(f'Welcome back, {user["name"]}')
