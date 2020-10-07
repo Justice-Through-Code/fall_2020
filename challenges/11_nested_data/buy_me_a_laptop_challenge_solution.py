@@ -1,0 +1,182 @@
+# Challenge 1
+print("Challenge 1: All possible laptops")
+
+print()
+
+print("Question 1: You are given a dictionary containing the laptop id and the name of the laptop as key-value pairs. Print out the laptop ids and names of the laptops separately.")
+
+print()
+
+all_laptops = {
+    "L9NB0KZ1-M00220": "Apple MacBook Pro",
+    "L9NB0KZ1-M00221": "Asus Zenbook",
+    "L9NB0KZ1-M00222": "Dell XPS",
+    "L9NB0KZ1-M00223": "Lenovo IdeaPad",
+    "L9NB0KZ1-M00224": "Apple MacBook Air",
+    "L9NB0KZ1-M00225": "Sony Viao"
+}
+
+
+print("All laptops IDs:")
+
+# for i in all_laptops....
+
+# TODO: Write code to print all laptops ids.
+
+for laptop_id in all_laptops:
+    print(laptop_id)
+
+print("All laptops names:")
+
+# for i in all_laptops....
+
+# TODO: Write code to print all laptops names.
+
+for laptop_id in all_laptops:
+    print(all_laptops[laptop_id])
+
+print()
+
+# Challenge 2
+
+print("Challenge 2: Buy a laptop")
+
+print()
+
+print("Question 1: Let's dive deeper into the details of the shortlisted laptops.")
+
+print()
+
+print("Below is a dictionary of the top 2 laptops of 2020 as reviewed by Tech Crunch. Go through the dictionary and print out the following 3 pieces of information about the laptops: \n1. All possible prices of the 16-inch MacBook Pro. \n2. All the color options for Dell XPS 13. \n3. The description of Dell XPS.")
+
+
+laptops = {
+    "review": "tech-crunch-2020-top-2-laptops",
+    "author": "Mike West",
+    "year": 2020,
+    "best_laptops": [
+        {
+            "productName": "Apple Macbook Pro",
+            "url": "https://www.apple.com/macbook-pro-13/",
+            "types": [
+                {
+                    "id": "1",
+                    "screen_size": "13-inch",
+                    "cpu": ["1.4GHz quad-core 8th-generation Intel Core i5 processor", "2.0GHz quad-core 10th-generation Intel Core i5 processor"],
+                    "ram": ["8GB","16GB"],
+                    "storage": ["256GB SSD","512 GB SSD"],
+                    "colors": ["space gray", "silver"],
+                    "price": [1299, 1499, 1799]
+                },
+                {
+                    "id": "2",
+                    "screen_size": "16-inch",
+                    "cpu": ["2.6GHz 6-core 9th-generation Intel Core i7 processor", "2.3GHz 8-core 9th-generation Intel Core i9 processor"],
+                    "ram": ["16GB"],
+                    "storage": ["512 GB SSD", "1 TB SSD"],
+                    "colors": ["space gray", "silver"],
+                    "price": [2399, 2799]
+                }
+            ],
+            "description": "If you're after the latest and greatest laptop from Apple, we suggest you look into the 2020 model of the MacBook Pro. The headline Touch Bar – a thin OLED display at the top of the keyboard which can be used for any number of things, whether that be auto-suggesting words as you type or offering Touch ID so you can log in with just your fingerprint – is of course included. It's certainly retained Apple's sense of style, but it comes at a cost. This is a pricey machine, so you may want to consider one of the Windows alternatives. But, if you're a steadfast Apple diehard, this is definitely the best laptop for you!"
+        },
+        {
+            "id": "2",
+            "productName": "Dell XPS",
+            "url": "https://www.dell.com/en-us/shop/dell-laptops/sr/laptops/xps-laptops?~ck=bt",
+            "types": [
+                {
+                    "id": "3",
+                    "screen_size": "13-inch",
+                    "cpu": ["11th Generation Intel Core i3-1115G4 Processor", "11th Generation Intel Core i5-1135G7 Processor"],
+                    "ram": ["8GB"],
+                    "storage": ["256GB SSD","512 GB SSD", "1 TB SSD"],
+                    "colors": ["Platinum silver exterior, black interior", "Platinum silver exterior, black interior"],
+                    "price": [999, 1099, 1149, 1249]
+                },
+                {
+                    "id": "4",
+                    "screen_size": "15-inch",
+                    "cpu": ["10th Generation Intel Core i5-10300H"],
+                    "ram": ["8GB", "16GB", "32GB", "64GB"],
+                    "storage": ["256 GB SSD", "512 GB SSD", "1 TB SSD", "2 TB SSD"],
+                    "colors": ["Frost White with White Palmrest", "Frost White with White Palmrest"],
+                    "price": [1199, 1299, 1399, 1749, 1999, 2299]
+                }
+            ],
+            "description": "The Dell XPS is an absolutely brilliant laptop. The 2020  version rocks an 11th-generation Intel Core i3, i5 or i7 processor and a bezel-less ‘Infinity Edge’ display. This Dell XPS continues to be the most popular Windows laptop in the world. What’s more, there’s a wide range of customization options, so you can really make the Dell XPS the best laptop for your needs. "
+        }
+    ]
+}
+
+
+# TODO: Write code to print all possible prices of the 16-inch MacBook Pro.
+# TODO: Write code to print all the color options for Dell XPS 13.
+# TODO: Write code to print the description of Dell XPS laptop.
+print(f'All possible prices of the 16-inch MacBook Pro: {laptops["best_laptops"][0]["types"][1]["price"]}')
+print(f'All color options for Dell XPS 13: {laptops["best_laptops"][1]["types"][0]["colors"]}')
+print(f'Description of Dell XPS laptop: {laptops["best_laptops"][1]["description"]}')
+
+
+print()
+
+print("Question 2: Out of Stock laptops")
+
+print()
+
+print("Suppose that the 13-inch MacBook Pro in space gray color is sold out. Also, the same laptop with 256 GB storage is out of stock as well. Update the list of dictionaries such that these options are removed. Print the updated dictionary.")
+
+# TODO: Update the laptops dictionary.
+# TODO: Print the new dictionary.
+laptops["best_laptops"][0]["types"][0]["colors"] = ["silver"]
+laptops["best_laptops"][0]["types"][0]["storage"] = ["512 GB"]
+
+print(laptops)
+
+print()
+
+print("Question 3: Final Decision")
+
+print()
+
+print("After a long debate with your friend and comparing the tech specs of all laptops in detail, this is the laptop you have selected and bought:\n13-inch MacBook Pro, 1.4GHz quad-core 8th-generation Intel Core i5 processor, 8GB RAM, 512 GB SSD and silver color at a price of 1499.")
+
+print()
+
+print("Using the laptops dictionary, create a new dictionary called 'bought_laptop' with all the above-mentioned specs.")
+
+bought_laptop = {}
+
+
+# This is how your dictionary should look like
+'''
+bought_laptop =
+{
+    "productName": "",
+    "id": "",
+    "screen_size": "",
+    "cpu": "",
+    "ram": "",
+    "storage": "",
+    "colors": "",
+    "price": ""
+}
+'''
+
+# TODO: Add these details to the new dictionary.
+# TODO: Print the bought_laptop dictionary.
+bought_laptop = {
+    "productName": laptops["best_laptops"][0]["productName"],
+    "id": laptops["best_laptops"][0]["types"][0]["id"],
+    "screen_size": laptops["best_laptops"][0]["types"][0]["screen_size"],
+    "cpu": laptops["best_laptops"][0]["types"][0]["cpu"][0],
+    "ram": laptops["best_laptops"][0]["types"][0]["ram"][0],
+    "storage": laptops["best_laptops"][0]["types"][0]["storage"][0],
+    "colors": laptops["best_laptops"][0]["types"][0]["colors"][0],
+    "price": laptops["best_laptops"][0]["types"][0]["price"][1]
+}
+
+
+print(bought_laptop)
+
+print()
