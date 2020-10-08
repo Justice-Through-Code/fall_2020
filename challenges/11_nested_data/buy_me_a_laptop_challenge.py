@@ -1,55 +1,25 @@
 # Challenge 1
-print("Challenge 1: All possible laptops")
+print("Challenge 1: All possible laptops\n")
 
-print()
-
-print("Question 1: You are given a dictionary containing the laptop id and the name of the laptop as key-value pairs. Print out the laptop ids and names of the laptops separately.")
-
-print()
-
-all_laptops = {
-    "L9NB0KZ1-M00220": "Apple MacBook Pro",
-    "L9NB0KZ1-M00221": "Asus Zenbook",
-    "L9NB0KZ1-M00222": "Dell XPS",
-    "L9NB0KZ1-M00223": "Lenovo IdeaPad",
-    "L9NB0KZ1-M00224": "Apple MacBook Air",
-    "L9NB0KZ1-M00225": "Sony Viao"
-}
+print("Question 1: You are given a list containing the laptop names. Print the names of each the laptops separately.")
+all_laptops = ["Apple MacBook Pro", "Asus Zenbook", "Dell XPS", "Lenovo IdeaPad", "Apple MacBook Air", "Sony Viao"]
 
 
-print("All laptops IDs:")
-
-# for i in all_laptops....
-
-# TODO: Write code to print all laptops ids.
-
+# TODO: Write code to print all laptop names
 print("All laptops names:")
 
-# for i in all_laptops....
-
-# TODO: Write code to print all laptops names.
-
-
-print()
 
 # Challenge 2
 
 print("Challenge 2: Buy a laptop")
+print("Below is a dictionary of the top 2 laptops of 2020 as reviewed by Tech Crunch. \
+    Go through the dictionary and print out the following 3 pieces of information about the laptops: \
+    \n1. The url for the Apple Macbook Pro \
+    \n2. All possible prices of the 16-inch MacBook Pro. \
+    \n3. All the color options for Dell XPS 13. \
+    \n4. The description of Dell XPS.")
 
-print()
-
-print("Question 1: Let's dive deeper into the details of the shortlisted laptops.")
-
-print()
-
-print("Below is a dictionary of the top 2 laptops of 2020 as reviewed by Tech Crunch. Go through the dictionary and print out the following 3 pieces of information about the laptops: \n1. All possible prices of the 16-inch MacBook Pro. \n2. All the color options for Dell XPS 13. \n3. The description of Dell XPS.")
-
-
-laptops = {
-    "review": "tech-crunch-2020-top-2-laptops",
-    "author": "Mike West",
-    "year": 2020,
-    "best_laptops": [
+laptops = [
         {
             "productName": "Apple Macbook Pro",
             "url": "https://www.apple.com/macbook-pro-13/",
@@ -101,55 +71,24 @@ laptops = {
             ],
             "description": "The Dell XPS is an absolutely brilliant laptop. The 2020  version rocks an 11th-generation Intel Core i3, i5 or i7 processor and a bezel-less ‘Infinity Edge’ display. This Dell XPS continues to be the most popular Windows laptop in the world. What’s more, there’s a wide range of customization options, so you can really make the Dell XPS the best laptop for your needs. "
         }
-    ]
-}
+]
 
+# TODO: Write code to print out the MacBook Pro url 
 
 # TODO: Write code to print all possible prices of the 16-inch MacBook Pro.
+
 # TODO: Write code to print all the color options for Dell XPS 13.
+
 # TODO: Write code to print the description of Dell XPS laptop.
 
 
-print()
-
 print("Question 2: Out of Stock laptops")
-
-print()
-
 print("Suppose that the 13-inch MacBook Pro in space gray color is sold out. Also, the same laptop with 1 TB storage is out of stock as well. Update the list of dictionaries such that these options are removed. Print the updated dictionary.")
 
 # TODO: Update the laptops dictionary.
 # TODO: Print the new dictionary.
 
-print()
+print("Question 3: listing all the prices")
+print("Time to look at the range of prices. Using a nested loops, print out all possible computer prices")
 
-print("Question 3: Final Decision")
-
-print()
-
-print("After a long debate with your friend and comparing the tech specs of all laptops in detail, this is the laptop you have selected and bought:\n13-inch MacBook Pro, 1.4GHz quad-core 8th-generation Intel Core i5 processor, 8GB RAM, 512 GB SSD and space gray color at a price of 1499.")
-
-print()
-
-print("Using the laptops dictionary, create a new dictionary called 'bought_laptop' with all the above-mentioned specs.")
-
-bought_laptop = {}
-
-
-# This is how your dictionary should look like
-'''
-bought_laptop =
-{
-    "productName": "",
-    "id": "",
-    "screen_size": "",
-    "cpu": "",
-    "ram": "",
-    "storage": "",
-    "colors": "",
-    "price": ""
-}
-'''
-
-# TODO: Add these details to the new dictionary.
-# TODO: Print the bought_laptop dictionary.
+# TODO: print out all possible prices for the laptops
