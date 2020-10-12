@@ -170,9 +170,8 @@ print('Question 3')
 # We will create an command line application that searches for places in NYC
 
 # Acceptable inputs are 'airports', beaches', food', 'parks' or 'zoos'
-places_input = input('Search places in NYC: ')
-
-print(f'Searching for {places_input}...')
+# places_input = input('Search places in NYC: ') # Uncomment this line
+# print(f'Searching for {places_input}...') # Uncomment this line
 
 # Create a for loop and inside...
 # TODO: 3.1 Print the name of every borough in the list.
