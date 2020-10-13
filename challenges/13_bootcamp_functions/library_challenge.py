@@ -3,6 +3,10 @@ print('Question 1:')
 books = ['MY OWN WORDS', 'WHITE FRAGILITY', 'THE BODY KEEPS THE SCORE', 'SO YOU WANT TO TALK ABOUT RACE', 'STAMPED FROM THE BEGINNING', 'JUST MERCY', 'BORN A CRIME',
          'THE WARMTH OF OTHER SUNS', 'THE COLOR OF LAW', 'THE NEW JIM CROW', 'THE TRUTHS WE HOLD', 'SAPIENS', 'BRAIDING SWEETGRASS', "MY GRANDMOTHER'S HANDS", 'ON TYRANNY']
 
+# 1.0
+# What data type is the object 'books'? How do you know?
+
+
 # 1.1
 # Create a function 'available_books' to print the books list
 # Parameters: Not needed for this function
@@ -118,8 +122,15 @@ books_with_details = [
         'title': 'ON TYRANNY',
         'author': 'Timothy Snyder',
         'description': 'Twenty lessons from the 20th century about the course of tyranny.'
+    },
+    {
+        'title': 'THE ROAD TO UNFREEDOM',
+        'author': 'Timothy Snyder',
+        'description': 'Snyder explores Russian attempts to influence Western democracies and the influence of philosopher Ivan Ilyin on Russian President Vladimir Putin and the Russian Federation in general.'
     }
 ]
+# 2.0
+# Describe the structure of the data in books_with_details. What types of data are nested within others? How do you know?
 
 # 2.1
 # Create a function 'count_books' that returns the number of books in the books_with_details list
@@ -134,3 +145,8 @@ books_with_details = [
 # Parameters - author (string)
 # Return - author's books (list of strings)
 # Hint - You will need a for loop, if statement, .append() for this solution!
+
+
+# 2.4
+# Search for book titles by the author 'Timothy Snyder' using the search_by_author function
+
