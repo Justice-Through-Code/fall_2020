@@ -31,7 +31,7 @@ def get_playlist_length(playlist):
 
 '''
 TODO (BONUS): define a function called play_track()
-It should have three parameters
+It should have two parameters
 -'playlist' (a list)
 -'track' (an integer) - this should be optional, and by default play track 1
 
