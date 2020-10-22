@@ -8,7 +8,7 @@ But, it is always okay to swap roles or for the typing person to add their ideas
 
 
 Your challenge: Make a bank account!
-In this challenge, we want to make a bank account with 4 crucial functions
+In this challenge, we want to make a bank account with 3 crucial functions
 -create_account() - this function will initialize a bank account
 -deposit() - add money to the account
 -withdraw() - remove money from the account
