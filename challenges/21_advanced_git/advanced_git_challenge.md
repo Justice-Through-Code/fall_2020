@@ -36,7 +36,7 @@ Only one person needs to make the repository (the others will get access to it b
 
 2. On the left-hand side of the navigation bar, there should be an option to create a new repository.
 
-<img src="images/new-repo.png" width="500">
+<img src="images/new-repo.png" width="700">
 
 3. This should take you to a page where you can give this new repository. Give your repo a name, decide if it's going to be public or private, and initialize it with a README.
 
@@ -53,19 +53,19 @@ In order to work with someone else on a GitHub repository, you must grant them w
 This can be done on GitHub as long as you know the other person's username.
 
 1. Go to your project's settings
-<img src="images/01-settings.png" width="500">
+<img src="images/01-settings.png" width="700">
 
 2. Select `manage access`
-<img src="images/02-manage-access.png" width="500">
+<img src="images/02-manage-access.png" width="400">
 
 3. You may need to confirm your login to GitHub - this is the password you initially used to login.
-<img src="images/03-confirm-login.png" width="500">
+<img src="images/03-confirm-login.png" width="300">
 
 4. Select `invite a collaborator`
-<img src="images/04-invite-collab.png" width="500">
+<img src="images/04-invite-collab.png" width="700">
 
 5. Find the person you want to collaborate with via their username, and actually send the invite!
-<img src="images/05-actual-invite.png" width="500">
+<img src="images/05-actual-invite.png" width="300">
 
 Great! Now your collaborator should have full push/pull access to your repository.
 
@@ -79,6 +79,7 @@ Now that the collaborators all have access to the repository, they can 'clone' i
 
 
 To clone, collaborators go to the repo on github, and click the green 'code' button. Then, they can copy the link in the box that pops down.
+
 <img src="images/clone.png" width="300">
 
 Finally, to clone, collaborators can then run from the command line:
@@ -99,7 +100,7 @@ Remember, the **first** thing you should do when collaborating is to check that 
 2. Look around your repo to see all the things your collaborators have added
 
 
-## BONUS CHALLENGEL Creating a merge conflict
+## BONUS CHALLENGE: Creating a merge conflict
 You can see another example of creating a merge conflict [here.](http://swcarpentry.github.io/git-novice/09-conflict/index.html)
 
 1. Within your new shared repository, we will need to modify a file to use for our merge conflict example.
