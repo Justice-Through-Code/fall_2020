@@ -15,23 +15,21 @@ In one of the first weeks, we covered Git. It is a tool for version control. Tha
 
 Unlike systems that do this in a totally automated fashion (e.g., Dropbox, GoogleDrive), Git requires some manual input from the user. Although you may initially find this annoying to have to manually mark changes and move files from your local version to remote version, it is helpful because it grants you complete control and also enables you to make notes about the changes being made.
 
-If you are working on your own, a typical Git workflow might look something like this:
+If you are working on your own repository, a typical Git workflow might look something like this:
 
-```
-touch testfile.md
-<make some changes>
-git status testfile.md
-git add -p testfile.md
-git commit -m "helpful message about the changes you just made"
+```console
+$ touch testfile.md
+$ git status testfile.md
+$ git add -p testfile.md
+$ git commit -m "helpful message about the changes you just made"
 ```
 
 This now means that Git has tracked the changes in your file, but these changes have not yet been shared ("pushed") to the remote location (usually, this is GitHub).
 
 You can push your changes at any time using `git push`, however, it can be advantageous to wait to push your changes until you are satisfied that whatever code you are working on works and will not introduce problems in other parts of the code.
 
-It's also a good idea to push your changes at the end of your working session (just in case anything happens to your computer!) You can picture yourself like a squirrel holding of lots of commit "nuts" in your cheeks.
+It's also a good idea to push your changes at the end of your working session (just in case anything happens to your computer!) 
 
-<img src="images/squirrel_nuts.jpg" width="500">
 
 When you are working on your own, when you push your code really only impacts you. However, when you are working with someone else, anytime you push your code you are basically telling the other people you are working with that your work is in a semi-final state where combining ("pulling") your code into theirs will not cause any breaking changes.
 
@@ -59,19 +57,19 @@ The first step of collaborating with Git is controlling who has edit access to t
 
 The other major consideration is how to amend your standard workflow to enable collaboration and try to avoid problems. Earlier, we talked about a typical work flow that looked like this:
 
-```
-touch testfile.md
-<make some changes>
-git status testfile.md
-git add -p testfile.md
-git commit -m "helpful message about the changes you just made"
+```console
+$ touch testfile.md
+$ git status testfile.md
+$ git add -p testfile.md
+$ git commit -m "helpful message about the changes you just made"
 ```
 
+### Checking changes on the remote with `git fetch`
 However, if you are working with someone else, they might have made changes since the last time you were working on the project. Therefore, we need to add a very important first step of checking to see if there are any changes on the remote branch.
 
-```
-git fetch
-git status
+```console
+$ git fetch
+$ git status
 ```
 
 Fetching essentially "sniffs" the remote location to see whether your local version and the remote version are at the same place or not. Importantly, fetching does not actually accept the changes from the remote location. Checking the status tells you the result of this comparison.
@@ -80,7 +78,16 @@ Why do you think it might be helpful to check for changes before actually accept
 
 We will talk more in the next section about what to do after fetching.
 
-## 4. How to avoid Git collaboration headaches: The importance of pulling before working
+## 4. Merging the files from the remote to your local version with `git pull`
+
+After seeing that there are some updates on the remote we want to bring to our local version, we can run the following to get them on our local computer:
+
+```console
+$ git pull
+```
+
+
+## 5. How to avoid Git collaboration headaches: The importance of pulling before working
 In the previous section, we talked about a modification that we will add to the start of our Git workflow.
 
 Now, every time we sit down in our computer to code we will first check to see if anyone else has made changes in the meantime using `git fetch`.
@@ -103,8 +110,8 @@ In this case, the changes made to the local version and the one from GitHub were
 
 Pulling the changes means that you are accepting the current state of the code at the remote location.
 
-```
-git pull
+```console
+$ git pull
 ```
 
 Sometimes, you will try to pull the code but will get an error message that you have local changes that you need to commit first so they don't get trampled on when you pull in your collaborator's changes.
@@ -123,13 +130,13 @@ This is a merge conflict. We will talk about how to deal with these in the chall
 
 Remember that Git is always keeping track of changes to files so pulling might overwrite your work if you and your collaborator were editing the same part of the code, but you can always recover your work. In the challenge, we will talk about how to handle these kinds of conflicts.
 
-## 5. Wrap up
+## 6. Wrap up
 Today we talked about the basics of collaborating using Git. The most important addition to our workflow is checking for changes before we start our own work. This looks like:
 
-```
-git fetch
-git status
-git pull
+```console
+$ git fetch
+$ git status
+$ git pull
 ```
 
 In the challenge exercise, we are going to review how to handle merge conflicts. There are lots of helpful resources online that cover this topic. Here are just a few:
