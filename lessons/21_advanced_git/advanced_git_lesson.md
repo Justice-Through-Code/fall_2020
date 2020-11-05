@@ -139,6 +139,13 @@ $ git status
 $ git pull
 ```
 
+## Sidebar: A quick note on terms
+The convention in Git is to call the copy of the code on your own computer the `local` version (or, more precisely, `branch`) and the remote point the `master`.
+
+There has been [substantial debate](https://mail.gnome.org/archives/desktop-devel-list/2019-May/msg00066.html) about whether this use of the word master in this context is derived from the context of slavery or not. In light of this, [GitHub](https://www.bbc.com/news/technology-53050955) has pledged to replace the term master in upcoming releases of Git.
+
+If you would like to change the name of your primary branch away from the term master in the meantime, [here](https://dev.to/damcosset/replacing-master-in-git-2jim) are some straightforward instructions for doing so.
+
 In the challenge exercise, we are going to review how to handle merge conflicts. There are lots of helpful resources online that cover this topic. Here are just a few:
 
 - [an example that includes how to create a merge conflict](https://www.atlassian.com/git/tutorials/using-branches/merge-conflictsEE)

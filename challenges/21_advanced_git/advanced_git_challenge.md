@@ -27,7 +27,10 @@ A full list for other common text editors can be found [here](http://swcarpentry
 ## Step 2: Creating a Git repo for this challenge
 In order to practice merge conflicts today, but not mess up any of your existing Git repositories, we're going to create a fresh repo to work with today.
 
-Since we're working on collaborative coding, you'll want to break into small groups of 2-3 people. Only one person needs to make the repository (the others will get access to it by `cloning` in a little while).
+Since we're working on collaborative coding, you'll want to break into small groups of 2-3 people. 
+
+### One person creates the repository
+Only one person needs to make the repository (the others will get access to it by `cloning` in a little while).
 
 1. Navigate to [github.com](https://github.com/). You may need to login to your account.
 
@@ -43,17 +46,9 @@ Since we're working on collaborative coding, you'll want to break into small gro
 
 Note: this process can also be [done from the command line](https://www.codegrepper.com/code-examples/shell/how+to+initialize+a+git+repository+command+line).
 
-## Sidebar: A quick note on terms
-The convention in Git is to call the copy of the code on your own computer the `local` version (or, more precisely, `branch`) and the remote point the `master`.
-
-There has been [substantial debate](https://mail.gnome.org/archives/desktop-devel-list/2019-May/msg00066.html) about whether this use of the word master in this context is derived from the context of slavery or not. In light of this, [GitHub](https://www.bbc.com/news/technology-53050955) has pledged to replace the term master in upcoming releases of Git.
-
-If you would like to change the name of your primary branch away from the term master in the meantime, [here](https://dev.to/damcosset/replacing-master-in-git-2jim) are some straightforward instructions for doing so.
 
 ## Step 3: Adding collaborators
 In order to work with someone else on a GitHub repository, you must grant them write access to the code.
-
-(Note: If you are working on a *public* repository, others will already have access.)
 
 This can be done on GitHub as long as you know the other person's username.
 
@@ -76,7 +71,35 @@ Great! Now your collaborator should have full push/pull access to your repositor
 
 In order for your collaborator to start working in your repository, they will need to accept the collaborator invitation. Usually, github will send them an email with a link to follow. If not, they should be able to see the invitation in their [notifications](https://github.com/notifications).
 
-## Step 4: Creating a merge conflict
+
+
+## Step 4: Collaborators clone the github repository
+
+Now that the collaborators all have access to the repository, they can 'clone' it to their own computers. Remember, to **make sure NOT to clone the repository inside another git respository**. Collaborators can run `git status` first before cloning to make sure that they aren't already in a git repository (i.e. it should say 'fatal: not a git repository (or any of the parent directories)'). 
+
+
+To clone, collaborators go to the repo on github, and click the green 'code' button. Then, they can copy the link in the box that pops down.
+<img src="images/clone.png" width="300">
+
+Finally, to clone, collaborators can then run from the command line:
+
+```console
+$ git clone [copy link to repo here]
+```
+
+Then, you should see the repo clone to your computer! Run `ls` to see the files, they should all be there!
+
+
+
+## Step 5: Each collaborator add 1 new file to the repo.
+
+Remember, the **first** thing you should do when collaborating is to check that you are not missing out on any updates from the remote by running `git fetch` or `git pull` first. This will make sure that you don't get off track with the remote repo.
+
+1. Then, make a new file and add it, commit it, and push! 
+2. Look around your repo to see all the things your collaborators have added
+
+
+## BONUS CHALLENGEL Creating a merge conflict
 You can see another example of creating a merge conflict [here.](http://swcarpentry.github.io/git-novice/09-conflict/index.html)
 
 1. Within your new shared repository, we will need to modify a file to use for our merge conflict example.
