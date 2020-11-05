@@ -36,11 +36,11 @@ Only one person needs to make the repository (the others will get access to it b
 
 2. On the left-hand side of the navigation bar, there should be an option to create a new repository.
 
-<img src="images/new-repo.png" width="700">
+<img src="images/new-repo.png" width="300">
 
 3. This should take you to a page where you can give this new repository. Give your repo a name, decide if it's going to be public or private, and initialize it with a README.
 
-<img src="images/create-page.png" width="500">
+<img src="images/create-page.png" width="700">
 
 4. For your first commit, make some changes to the README. This could be a description of the project (always a good idea to have this in your README - see [here](https://github.com/matiassingers/awesome-readme) for examples of quality READMEs), or just some junk text to get us going.
 
@@ -56,7 +56,7 @@ This can be done on GitHub as long as you know the other person's username.
 <img src="images/01-settings.png" width="700">
 
 2. Select `manage access`
-<img src="images/02-manage-access.png" width="400">
+<img src="images/02-manage-access.png" width="300">
 
 3. You may need to confirm your login to GitHub - this is the password you initially used to login.
 <img src="images/03-confirm-login.png" width="300">
@@ -87,6 +87,8 @@ Finally, to clone, collaborators can then run from the command line:
 ```console
 $ git clone [copy link to repo here]
 ```
+<img src="images/git-clone-command-line.png" width="800">
+
 
 Then, you should see the repo clone to your computer! Run `ls` to see the files, they should all be there!
 
@@ -127,13 +129,13 @@ If the have not yet cloned the repository, this would be a good time to do so th
 
 They can copy the link to the repository from GitHub.
 
-<img src="images/git-clone.png" width="500">
+<img src="images/git-clone.png" width="300">
 
 From terminal, they can then clone this to their local machine.
 
 Make sure that you are doing this in the directory where you want the repository's folder to live. One suggestion is to create a folder where you will put all of your Git repos - that way you won't get confused with your operating system's default organization scheme (e.g.,  the `Documents` folder on a Mac).
 
-<img src="images/git-clone-command-line.png" width="500">
+<img src="images/git-clone-command-line.png" width="800">
 
 4. Now, let's make a change to the file that we just created. You can do this by opening the file in your favorite text editor, adding some text, and saving the file.
 
