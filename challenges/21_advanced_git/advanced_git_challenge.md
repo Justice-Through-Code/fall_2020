@@ -1,4 +1,4 @@
-# Class 2 - Active Learning Challenge
+# Git Collab Challenge!
 
 In this challenge, you will:
 
