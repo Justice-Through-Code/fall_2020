@@ -20,11 +20,14 @@ No parameters needed, other than self
 
 Then, create an object of class Booklist called 'my_library' in this script.
 Finally, print the books attribute of my_library -- it should be an empty list
+Also, print out the type of my_library to see what you get :) 
+
 '''
 print('PART 1\n')
 
 my_library = Booklist()
 print(my_library.books)
+print(type(my_library))
 
 '''
 Part #2: 
