@@ -38,16 +38,23 @@ In general, jupyter notebooks are great for any coding where you want to *intera
 * **graphs & figures** -- jupyter notebooks allow graphs and charts to show up inside your notebook file as you're working
 * **documents & tutorials** -- the fact that notebooks allow you to integrate graphics and nice Markdown text makes them great for making documents that share combinations of code, text, and graphics with others. In fact, *this lesson* is a jupyter notebook, and most other lessons for this class are as well!
 
+#### What are jupyter notebooks *not* as good for
+
+* **Code that needs to re-used or imported** -- it is much less straightforward to import a jupyter notebook compared to a .py file
+* **object-oriented programming (class definitions)** -- it usually works better to define classes in .py scripts, since they are more easily imported
+* **code that is run as part of a 'pipeline' or 'code base'** -- it is easier to integrate python scripts with other languages and into a larger code base than jupyter notebooks
+
 ## 2) How to navigate jupyter notebooks
 
 ### Starting the Jupyter Notebook Server
 
-One **important** thing to do when starting a jupyter notebook is to think about where you want your notebook file to be on your computer. First, figure out what folder you want to put it in (for example `/Users/Paul/jtc_class_fall_2020/my_jupyter_nobeooks/`), then navigate to that folder using the command line (i.e. with `cd`).
+One **important** thing to do when starting a jupyter notebook is to think about where you want your notebook file to be on your computer. First, figure out what folder you want to put it in (for example `Users/Paul/Documents/Teaching/jtc_class_code/lessons/`), then navigate to that folder using the command line (i.e. with `cd`).
 
 Now, you can start up the jupyter notebook server by running the following from the command line:
 
-<div class="highlight sh"><pre><span></span><code><span class="gp">$</span> jupyter notebook
-</code></pre></div>
+```console
+$ jupyter notebook
+```
 
 It might take a second, but you should see a browser window pop up that looks like this:
 
@@ -207,40 +214,6 @@ Here are a few of the menu options that might help you get around:
 * When you're done working, you can click the logout button at the very top right to close down your jupyter notebook server
 
 We'll practice using these menus soon!
-
-# Challenge
-
-The challenge for this lesson is focused on getting used to working with jupyter notebook layout and workflow!
-
-**Part 1**:
-* Let's start fresh as if you just opened your computer. If you have jupyter notebooks open, log out of them. Close your command line window as well.
-* Now, use your command line to go into your jtc folder. Make a folder here called 'notebook_examples'
-* Use `cd` to go into the 'notebook_examples' folder, then run `jupyter notebook` from the command line to start the jupyter notebook server
-
-
-**Part 2**: 
-* Make a new Python 3 notebook
-* Rename this notebook 'example_1'
-* In a code cell, make a function `check_odd` that takes an integer as input, returns `True` if it is odd, and returns `False` if not. 
-* In the next code cell, test out the the function on an odd number and make sure that it returns `True`
-* In the next code cell, test out the the function on an even number and make sure that it returns `False`
-* In the next code cell, test out the function where you input the string 'hi', rather than an integer. What happens when you run this cell?
-* Move the previous cell (where the input was 'hi') to be immediately after the one with the function definition in it, before the tests with odd/even numbers. 
-* From the Kernel menu, select **Restart & Run All**. What happens? Why?
-* Make a Markdown cell, and in it write a description of what happens when you are *running all cells*, but one cell throws an error. Specifically, what happens for cells after that error?
-
-**Part 3**:
-* Start clean again! Shut down the jupyter notebook server
-* Restart the jupyter notebook server by running `jupyter notebook` from the command line inside the notebook_examples folder
-* This time, make a new Python 3 notebook called 'hw_1_notebook'.
-* In this notebook, copy your python code from your `homework1.py` script into the jupyter notebook. 
- * Put each numbered problem into a separate cell
- * For each problem, put the text describing the assignment for that number into a markdown cell, so that it is easy to separate the problem description from the code
- * Add a header to each problem with the problem #
-* Now, make sure that you can run your notebook all the way through, generating answers for each problem as you did with your original .py script
-* Once your notebook is complete, try downloading it as a pdf file using File --> Download as with the html option. How does it look? 
-
-
 
 ## More resources
 
