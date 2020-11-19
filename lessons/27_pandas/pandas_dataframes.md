@@ -3,7 +3,6 @@
 * Make sure the [pandas library](https://pandas.pydata.org/) is installed and working on your computer
     * Mostly likely if you have Anaconda installed, you're all set. To confirm this, open up a jupyter notebook and run `import pandas` in a python cell. If you get no error message, you're all set!
     * If you do get an error message, run `$ pip install pandas` from your command line to install it. After installing, repeat the previous step to check if the installation worked
-* Download the [spotify_top_tens.csv file](https://github.com/Justice-Through-Code/fall_2020) from Github, and put this file in a folder called `datasets` inside your jtc course folder on your computer
 
 # Outline of class agenda
 
@@ -1256,19 +1255,17 @@ Try doing this a few more times to see if you can get:
 * The 2nd row and the first column
 * The last row and the second column (a little trickier!)
 
-# Challenge
 
-For this challenge, we're going to explore some data in a different csv file, the one called 'billboard_1978.csv'. This file contains data on the [Billboard Hot 100](https://www.billboard.com/charts/hot-100) songs from 1978. 
+# Wrapping up
 
-For this challenge, try to do the following things with this data, as if you were just starting to work on it for a larger project and you wanted to get accustomed to it:
+Okay! We've learned about a *very powerful* new library for doing data science. 
 
-1. Load it in using `pd.read_csv()` and save it into a variable called songs_1978. To do this, you'll first want to make sure it is in your datasets folder
-2. Take a look at the whole DataFrame
-3. Use `head()` and `tail()` to check out the first and last few rows. Which song ranked #94 on the chart?
-4. How many rows and columns are in this DataFrame?
-5. Which columns have numeric (integer or float) data? 
-6. Which columns have strings (listed as 'object' when you run `info()`)?
-7. What is slowest tempo (minimum BPM) and fastest tempo (maximum BPM) this year?
-8. Have songs gotten faster on average since 1978? Are the songs in `songs` on average faster than the songs in the `songs_1978` dataset? Compare the mean BPM across both DataFrames?
+An overview of what we've learned:
+* How to import the pandas library (as `pd`)
+* How to read in data using `pd.read_csv()`
+* What a dataframe is, and why it is useful
+* How to summarise the data in a dataframe and inspect the attributes
+* How to access specific cells in a dataframe
 
-**Recap**: Nice job! We've learned a lot about working with DataFrames today. Next time, we'll learn how to 'clean' the data and work with DataFrames in more detail. 
+We'll spend the next few classes working with pandas, so today's challenge will help you get used to it.
+
