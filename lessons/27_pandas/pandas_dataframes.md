@@ -39,7 +39,8 @@ Now, we can read in a csv file. To do this, we use `pd.read_csv()`, with the pat
 
 
 ```python
-pd.read_csv('../../datasets/spotify_top_tens.csv')
+df = pd.read_csv('../../datasets/spotify_top_tens.csv')
+df
 ```
 
 
@@ -270,6 +271,13 @@ So, if you look at what printed out when you read in the csv file above, you'll 
 ### At one level, pandas DataFrames are a [python class](https://docs.python.org/3/tutorial/classes.html)
 
 We learned about classes a little while ago, and pandas DataFrames are their own class under the hood. This means that they can be instantiated as objects, and they come with their own available functions.
+
+```python
+print(type(df))
+```
+
+    <class 'pandas.core.frame.DataFrame'>
+
 
 ### DataFrames are 2-dimensional, rectangular, labeled datastructures
 
